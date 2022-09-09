@@ -6,11 +6,12 @@ html, body {
 }
 
 /* CSS Variables */
+
 :root {
-    --black1: #1A1A1A;
-    --black2: #393939;
-    --blue1: #4957D4;
-    --blue2: #5F6BD0;
+    --primary-black: #1A1A1A;
+    --second-black: #393939;
+    --primary-blue: #5965cf;
+    --second-blue: #5F6BD0;
     --button: #5762c3;
     --button-hover: #505ab3;
     --pink: #F6C6BC;

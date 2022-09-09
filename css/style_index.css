@@ -1,0 +1,400 @@
+.site-main > .site-banner .intro { /* main intro box */
+    padding: 2rem 0;
+    margin: 8rem 0 0 5rem;
+}
+
+.site-main > .site-banner .intro h5 {
+    margin-bottom: 25px;
+    margin-top: 8px;
+    font-family: 'Poppins', sans-serif;
+    color: #61bcad;
+    padding-left: 2.5rem;
+    font-size: 2rem;
+}
+  
+.card-title {
+    width: 23ch;
+    animation: typing 2.5s steps(25), blink .7s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-size: 2em;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+    
+@keyframes blink {
+    50% {
+        border-color: transparent
+    }
+}
+
+.site-main > .site-banner .intro p { /* intro text in the box */
+    font-family: 'Poppins', sans-serif;
+    color: var(--primary-black);
+    font-weight: 300;
+    margin: 2rem 2.5rem 0 2.5rem;
+    font-size: 0.9rem;
+    line-height: 28px;
+}
+
+/* Banner Area */
+.site-main .site-banner .site-intro h3 {
+    padding-top: 43%;
+    font-weight: 300;
+    margin-left: 29%;
+    margin-right: 0;
+    font-size: 18px;
+}
+
+.site-main .site-banner .banner-image > img {
+    padding: 12.5rem 0;
+    margin: 1rem 0 0 4rem;
+    width: 20rem;
+    border-radius: 50%;
+    animation-name: floating;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.2));
+}
+
+.resume-button .primary-button {
+    transition: transform .2s;
+    color: var(--button);
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    background-color: rgb(238, 238, 238);
+    border: 2px solid var(--button);
+    border-radius: 8px;
+    opacity: 0.8;
+    padding: 6px 18px 6px 18px;
+    margin: 3% 7% 1% 7%;
+}
+
+.resume-button .primary-button:hover {
+    transform: scale(1.05); 
+    background-color: rgb(246, 243, 243);
+    opacity: 0.8;
+}
+
+.about-info {
+    margin-top: 4.5rem;
+    margin-left: 0;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.about-image {
+    width: 40%;
+    margin-left: 9rem;
+    margin-top: 7%;
+    margin-right: 0;
+}
+
+/* .site-main { 
+    background-image: linear-gradient(to left, #eeeffb , #FFF);
+} */
+
+.site-main .light-down {
+    position: relative;
+    color: var(--primary-black);
+    font-size: 3rem;
+    margin-top: -7rem;
+}
+
+.dot1 {
+    width: 250px;
+    height: 250px;
+    /* background-color: #acc896; */
+    background-image: linear-gradient(to left, var(--primary-blue) , #9299cb);
+    border-radius: 50%;
+    margin-left: 9rem;
+    display: inline-block;
+    opacity: 0.9;
+    position: relative;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.2));
+}
+
+.dot2 {
+    width: 250px;
+    height: 250px;
+    /* background-color: #8c93d5; */
+    background-image: linear-gradient(to left, #acc896 , #bddba6);
+    border-radius: 50%;
+    margin-left: 9rem;
+    display: inline-block;
+    opacity: 0.9;
+    position: relative;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.2));
+}
+
+.dot3 {
+    width: 250px;
+    height: 250px;
+    background-color: #fbd77a;
+    border-radius: 50%;
+    margin-left: 9rem;
+    display: inline-block;
+    opacity: 0.9;
+    position: relative;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.2));
+}
+
+.site-intro h1 { /* About me title */
+    font-size: 4.5rem;
+    font-weight: 50;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 5.8rem;
+    margin-left: 15rem;
+}
+
+/* headings in bubbles */
+.about-area .about-intro h3 {
+    margin-left: 37%;
+    margin-top: 43%;
+    margin-bottom: 0;
+    position: absolute;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.about-area .about-intro h3::after{
+    content: " ";
+    height: 1.5px;
+    width: 10.5vw;
+    background: #FFF;
+    display: inline-block;
+    margin-left: 5%; /* not align with headings */
+    transform: translateY(-7.5px);
+}
+
+/* My Story section text */
+.about-area .about-myStory {
+    margin: 0 35% 0 0;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    transition: transform .2s;
+    line-height: 30px;
+}
+
+/******************************************************************************/
+/******************************* Experience Area ******************************/
+/******************************************************************************/
+.about-area .about-experience .hyperlink {
+    text-decoration: none;
+    color: #333333;
+}
+
+.about-area .about-experience .hyperlink:hover {
+    color: #333333;
+    font-weight: 500;
+}
+
+.about-area .about-experience .hyperlink:visited {
+    text-decoration: none;
+    font-weight: 500;
+    color: #333333;
+}
+
+.about-area .about-experience .hyperlink:links {
+    text-decoration: none;
+    font-weight: 500;
+    color: #333333;
+}
+
+/* Experience table */
+.about-info .table {
+    margin: -6% 35% 0 0;
+}
+
+.about-info .table, tr, td {
+    border: none;
+}
+
+/* Experience section text */
+.about-area .about-experience {
+    margin: 0;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    transition: transform .2s;
+}
+.about-area .about-experience-heading {
+    margin: 0;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    transition: transform .2s;
+    color: #b5b2c5;
+}
+
+/******************************************************************************/
+/******************************* Coursework Area ******************************/
+/******************************************************************************/
+
+.about-area .about-coursework h3 {
+    margin: 43% 0 0 32%;
+    position: absolute;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+.about-area .about-coursework h3::after{
+    content: " ";
+    height: 1.5px;
+    width: 11.2vw;
+    background: #FFF;
+    display: inline-block;
+    margin-left: 5%; /* not align with headings */
+    transform: translateY(-7.5px);
+}
+
+.about-area .about-info .accordion {
+    margin-top: -4.5rem;
+}
+
+.about-area .about-info .accordion-item {
+    font-family: 'Poppins', sans-serif;
+    color: var(--primary-black);
+    background: rgb(252, 255, 250);
+    font-size: 1.2rem;
+    border-radius: 10px;
+    margin-bottom: 6px;
+}
+
+.about-area .about-info .accordion-button.collapsed {
+    color: #7b81bb;
+    background: #FFF;
+    opacity: 0.8;
+    border-radius: 10px;
+    font-weight: 400; /* course name title */
+}
+
+.about-area .about-info .accordion-button:not(.collapsed) {
+    color: #7b81bb;
+    border: 2.5px solid #7b81bb;
+    opacity: 0.8;
+    font-weight: 500;
+    border-radius: 10px;
+    background: #FFF;
+}
+
+.about-area .about-info .accordion-button:not(.collapsed)::after {
+    filter: brightness(0%) invert(100%);
+}
+
+.about-area .about-info .accordion-button:focus {
+    box-shadow: inherit;
+}
+
+.about-area .about-info .accordion-body {
+    background: #FFF; /* content background */
+    border-radius: 10px;
+    font-size: 0.9rem;
+    font-family: 'Inter', sans-serif;
+}
+
+/******************************************************************************/
+/****************************** Get in Touch Area *****************************/
+/******************************************************************************/
+/* Get in Touch text */
+.about-area .getInTouch h3 {
+    margin-left: 41%;
+    margin-top: 37%;
+    margin-bottom: 0;
+    position: absolute;
+    color: var(--second-black);
+}
+
+.about-area .getInTouch h3::after{
+    content: " ";
+    height: 2px;
+    width: 9.4vw;
+    background: #595958;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-7.5px);
+}
+
+.bottom-main {
+    background-color: #595958;
+}
+
+/* Contact Information Button */
+.bottom-main .about-area .getInTouch-info button {
+    background: transparent;
+    transition: transform .2s;
+    color: #FFF;
+    border: 1px solid #AAB3FF;
+    border-radius: 50px;
+    padding: 18px 35px 18px 35px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    margin-right: 6%;
+}
+
+.bottom-main .about-area .getInTouch-info button:hover {
+    transform: scale(1.1); 
+    background: transparent;
+    color: #FFF;
+    border: 1px solid #AAB3FF;
+    border-radius: 50px;
+    padding: 18px 35px 18px 35px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    margin-right: 6%;
+    /* font-weight:500; */
+}
+
+/* Text Line 1 */
+.getInTouch-ThankYou {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 9%;
+    margin-bottom: 2%;
+}
+
+/* Text Line 2 */
+.getInTouch-reachMe {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+/* Get in Touch title */
+.site-main .getInTouch-info h3 {
+    padding-top: 43%;
+    font-weight: 300;
+    margin-left: 29%;
+    margin-right: 0;
+    font-size: 18px;
+    line-height: 32px;
+    color: #333;
+}

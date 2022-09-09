@@ -1,0 +1,229 @@
+/* Experience Top Area */ 
+.site-experience { /* Background */
+    background-color: #FFF;
+}
+
+.site-experience .experience-area {
+    padding: 7rem 2rem;
+}
+ 
+.site-experience .experience-area .experience-title {
+    padding: 0 14rem;
+}
+
+.site-experience .experience-area .experience-title h1 {
+    font-size: 35px;
+}
+
+/* three cards */
+.site-experience > .experience-area .experience {
+    background: #EFF1FD;
+    padding: 2rem 0;
+    width: 18rem;
+    margin: 5rem .5rem;
+    margin-left: 14%;
+    margin-top: -65px;
+    border-radius: 1%;
+    /* transition: box-shadow .7s ease; */
+    box-shadow: var(--box-shadow);
+}
+
+/* .site-experience > .experience-area .experience:hover{
+    box-shadow: var(--box-shadow);
+} */
+
+.site-experience > .experience-area .experience h5 { /* Three titles in each box */
+    margin-bottom: 25px;
+    margin-top: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+
+.site-experience > .experience-area .experience p { /* Text in boxes */
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: var(--primary-black);
+}
+
+/* Experience Section Top */
+.semi-circle-exp {
+    margin-top: -6%;
+    width: 370px;
+    height: 330px; /* as the half of the width */
+    background-color: #F6C6BC;
+    border-radius: 50%; /* 100px of height + 10px of border */
+    border: 10px solid #F6C6BC;
+    border-bottom: 0;
+    margin-left: -220px;
+    opacity: 0.9;
+    position: relative;
+    /* animation: slideIn 3s ease-in;
+    animation-delay: 0s; */
+    animation-name: floating;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.experience-intro h1 { /* Experience title */
+    font-size: 6vw;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 100px;
+    margin-left: 280px;
+}
+
+.experience-intro a:link {
+    text-decoration:none; 
+    color: var(--second-black);
+}
+
+.experience-intro a:hover {
+    text-decoration:none; 
+    color: var(--second-black);
+}
+
+.experience-intro a:visited {
+    text-decoration:none; 
+    color: var(--second-black);
+}
+
+.experience-intro a:hover {
+    text-decoration:none; 
+    color: var(--second-black);
+}
+
+
+
+/* Project Area */ 
+.grid { /* distance between grid and the page borders */
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+/* distance between images of projects */
+.the-project {
+    margin: 8rem 0 0 0;
+}
+
+/* project names */
+.site-experience .project-area .grid .the-project > .title h4 {
+    font-family: 'Poppins', sans-serif;
+    color: var(--primary-black);
+    font-size: 1.7rem;
+}
+
+.site-experience .project-area .grid .the-project > .skills p {
+    font-family: 'Open Sans', sans-serif;
+    color: #8f8f8f;
+    font-size: 1rem;
+    font-style: italic;
+}
+/*
+.works .circle {
+    background-color: #e3e9ef;
+    border-radius: 50%;
+    border: 10px solid #e3e9ef;
+    border-bottom: 0;
+    margin-left: -220px;
+    opacity: 0.9;
+    position: relative;
+    animation-name: floating;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.works h1 {
+    font-size: 5rem;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 7rem;
+    margin-left: 16.5rem;
+    margin-bottom: 0;
+}
+*/
+.view-demo-button .primary-button {
+    transition: transform .2s;
+    color: var(--button);
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    background-color: rgb(243, 242, 242);
+    border: 2px solid var(--button);
+    border-radius: 8px;
+    opacity: 0.8;
+    padding: 6px 18px 6px 18px;
+    margin-top: 2rem;
+}
+
+.view-demo-button .primary-button:hover {
+    transform: scale(1.05); 
+    background-color: rgb(246, 243, 243);
+    opacity: 0.8;
+}
+
+/* .site-experience > .project-area .project-bar {
+    padding: 1rem 0 1.5rem 0;
+    margin-top: -70px;
+    margin-left: 130px;
+    border-radius: 1%;
+    transition: box-shadow .7s ease;
+} */
+
+/* .site-experience .project-area .button-group button {
+    background: transparent;
+    color: var(--primary-black);
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: -90px;
+    padding: 0 3% 0 3%;
+    transition: transform .2s;
+}
+
+.site-experience .project-area .button-group button:hover {
+    transform: scale(1.05);
+    color: #5a7997;
+}
+
+.site-experience .project-area .button-group button + button{
+    padding-left: 3rem;
+} */
+
+.project-area {
+    margin-bottom: 50px; /* distance from footer */
+}
+
+
+/******************************************************************************/
+/********************** Show Text when Hovering Image *************************/
+/******************************************************************************/
+
+.site-experience .project-area .grid .the-project .img .description {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+.site-experience .project-area .grid .the-project .img img.main {
+    position: absolute;
+    width: 20rem;
+    height: auto;
+}
+
+.site-experience .project-area .grid .the-project .img img.hover {
+  position: absolute;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .5s;
+  width: 20rem;
+  height: auto;
+}
+
+.site-experience .project-area .grid .the-project .img:hover img.hover {
+  opacity: 1;
+}
+
+     
