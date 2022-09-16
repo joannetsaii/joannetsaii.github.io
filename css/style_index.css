@@ -298,7 +298,7 @@
     .dot1 {
         width: 250px;
         height: 250px;
-        background-image: linear-gradient(to left, var(--primary-blue) , #8f95c7);
+        background-image: linear-gradient(to left, #5965cf , #8f95c7);
         border-radius: 50%;
         margin-left: 33%;
         display: inline-block;
@@ -595,33 +595,33 @@
     margin-right: 0;
 }
 
-.site-main .light-down {
+.site-main ion-icon {
     position: relative;
-    color: var(--second-black);
+    color: #393939;
     opacity: 0.9;
     font-size: 3rem;
     margin-top: 3.5rem;
 }
 
-.site-main .light-down:hover {
+.site-main ion-icon:hover {
     position: relative;
-    color: var(--primary-black);
+    color: #1A1A1A;
     opacity: 0.9;
     font-size: 3rem;
     margin-top: 3.5rem;
 }
 
-.site-main .light-down:visited {
+.site-main ion-icon:visited {
     position: relative;
-    color: var(--second-black);
+    color: #393939;
     opacity: 0.9;
     font-size: 3rem;
     margin-top: 3.5rem;
 }
 
-.site-main .light-down:links {
+.site-main ion-icon:links {
     position: relative;
-    color: var(--second-black);
+    color: #393939;
     opacity: 0.9;
     font-size: 3rem;
     margin-top: 3.5rem;
