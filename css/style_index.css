@@ -461,7 +461,7 @@
         font-family: 'Poppins', sans-serif;
     }
 
-/******************************************************************************/
+        /******************************************************************************/
 /****************************** Get in Touch Area *****************************/
 /******************************************************************************/
     /* Get in Touch text */
@@ -571,29 +571,17 @@
         margin: 2.8% 1% 3% 5%;
     }
 
-/* Get in Touch title */
-/* .site-main .getInTouch-info h3 {
-    padding-top: 43%;
-    font-weight: 300;
-    margin-left: 29%;
-    margin-right: 0;
-    font-size: 18px;
-    line-height: 32px;
-    color: #333;
-} */
+    .bottom-main .about-area .getInTouch-info .copyrights {
+        color: rgb(197, 197, 197);
+        font-family: 'Outfit', sans-serif;
+        opacity: 0.9;
+        font-size: 1rem;
+        font-weight: 200;
+        margin-top: 5%;
+        margin-bottom: 2%;
+        margin-left: 5%;
+    }
 
-
-
-.bottom-main .about-area .getInTouch-info .copyrights {
-    color: rgb(197, 197, 197);
-    font-family: 'Outfit', sans-serif;
-    opacity: 0.9;
-    font-size: 1rem;
-    font-weight: 200;
-    margin-top: 5%;
-    margin-bottom: 2%;
-    margin-left: 5%;
-}
 }
   
 
@@ -615,7 +603,29 @@
     margin-top: 3.5rem;
 }
 
+.site-main .light-down:hover {
+    position: relative;
+    color: var(--primary-black);
+    opacity: 0.9;
+    font-size: 3rem;
+    margin-top: 3.5rem;
+}
 
+.site-main .light-down:visited {
+    position: relative;
+    color: var(--second-black);
+    opacity: 0.9;
+    font-size: 3rem;
+    margin-top: 3.5rem;
+}
+
+.site-main .light-down:links {
+    position: relative;
+    color: var(--second-black);
+    opacity: 0.9;
+    font-size: 3rem;
+    margin-top: 3.5rem;
+}
 /******************************************************************************/
 /******************************* Experience Area ******************************/
 /******************************************************************************/

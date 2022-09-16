@@ -182,6 +182,7 @@ body {
     /* Navigation Bar */
     .navbar {
         opacity: 0.8;
+        /* margin-bottom: 35%; */
     }
 
     .navbar-brand {  /* joanne tsai */
@@ -208,126 +209,7 @@ body {
         text-underline-position: under;
     }
 
-    /******************************************************************************/
-/****************************** Get in Touch Area *****************************/
-/******************************************************************************/
-    /* Get in Touch text */
-    .bottom-main .about-area {
-        background: #393b3f;
-        margin-top: 3%;
-    }
 
-    .bottom-main .about-area .getInTouch .dot3-1 {
-        width: 250px;
-        height: 250px;
-        background-image: linear-gradient(to left, #fbd77a , #e5cf9b);
-        border-radius: 50%;
-        margin-left: 33%;
-        display: inline-block;
-        opacity: 0.9;
-        position: relative;
-        animation-name: floating;
-        animation-duration: 3s;
-        animation-iteration-count: infinite;
-        animation-timing-function: ease-in-out;
-        filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.2));
-    }
-
-    .about-area .getInTouch .dot3-2 {
-        display: None;
-    }
-    .about-area .getInTouch .dot3-2 .about-text-sm {
-        display: none;
-    }
-/* .about-area .getInTouch .about-text {
-    padding-top: 43%;
-    font-weight: 300;
-    margin-left: 29%;
-    margin-right: 0;
-    font-size: 18px;
-    line-height: 32px;
-    color: #333;
-} */
-
-    .bottom-main .about-area .getInTouch .dot3-1 h3 {
-        margin-left: 37%;
-        margin-top: 36%;
-        margin-bottom: 0;
-        position: absolute;
-        color: #393b3f;
-        font-family: 'Poppins', sans-serif;
-        font-weight: 500;
-        font-size: 1.6rem;
-    }
-
-    .bottom-main .about-area .getInTouch .dot3-1 h3::after{
-        content: " ";
-        height: 1.5px;
-        width: 10.5vw;
-        background: #393b3f;
-        display: inline-block;
-        margin-left: 5%; /* not align with headings */
-        transform: translateY(-12.5px);
-    }
-
-    /* Contact Information Button */
-    .bottom-main .about-area .getInTouch-info button {
-        background: transparent;
-        transition: transform .2s;
-        color: #FFF;
-        border: 1px solid #AAB3FF;
-        border-radius: 50px;
-        padding: 15px 30px 15px 30px;
-        font-family: 'Poppins', sans-serif;
-        font-weight: 300;
-        font-size: 0.9rem;
-        margin: 0 1% 1% 5%;
-    }
-
-    .bottom-main .about-area .getInTouch-info button:hover {
-        transform: scale(1.05); 
-        background: transparent;
-        transition: transform .2s;
-        color: #FFF;
-        border: 1px solid #AAB3FF;
-        border-radius: 50px;
-        padding: 15px 30px 15px 30px;
-        font-family: 'Poppins', sans-serif;
-        font-weight: 300;
-        font-size: 0.9rem;
-        margin: 0 1% 1% 5%;
-    }
-
-    /* Text Line 1 */
-
-    .bottom-main .about-area .getInTouch-info .getInTouch-ThankYou {
-        color: #FFF;
-        font-family: 'Poppins', sans-serif;
-        font-size: 1rem;
-        font-weight: 200;
-        margin-top: 4%;
-        margin: 0 1% 0 5%;
-    }
-
-    /* Text Line 2 */
-    .bottom-main .about-area .getInTouch-info .getInTouch-reachMe {
-        color: #FFF;
-        font-family: 'Poppins', sans-serif;
-        font-size: 1rem;
-        font-weight: 200;
-        margin: 2.8% 1% 3% 5%;
-    }
-
-    .bottom-main .about-area .getInTouch-info .copyrights {
-        color: rgb(197, 197, 197);
-        font-family: 'Outfit', sans-serif;
-        opacity: 0.9;
-        font-size: 1rem;
-        font-weight: 200;
-        margin-top: 5%;
-        margin-bottom: 2%;
-        margin-left: 5%;
-    }
 
 }
 
