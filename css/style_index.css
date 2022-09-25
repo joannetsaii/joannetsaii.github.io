@@ -260,7 +260,7 @@
         font-family: 'Outfit', sans-serif;
         color: #61bcad;
         font-size: 1.8rem;
-        margin: 10% auto 0 13%;
+        margin: -6% auto 0 13%;
         width: 20ch;
         animation: typing 2s steps(25), blink .7s step-end infinite alternate;
         white-space: nowrap;
@@ -285,7 +285,7 @@
     }
 
     .site-main .site-banner .banner-image > img {
-        margin: 46% 0 0 4rem;
+        margin: 35% 0 0 4rem;
         width: 20rem;
         border-radius: 50%;
         animation-name: floating;
@@ -373,7 +373,7 @@
     
     /* Experience table */
     .about-info .table {
-        margin-top: 3%;
+        margin-top: 0.5%;
     }
     
     .about-info .table, tr, td {
@@ -626,16 +626,3 @@
     font-size: 3rem;
     margin-top: 3.5rem;
 }
-/******************************************************************************/
-/******************************* Experience Area ******************************/
-/******************************************************************************/
-
-
-/******************************************************************************/
-/******************************* Coursework Area ******************************/
-/******************************************************************************/
-
-
-
-
-
