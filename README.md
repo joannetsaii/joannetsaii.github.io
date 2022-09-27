@@ -1,5 +1,5 @@
 # portfolio
-Currently in progress. Thanks for your patience!
+Currently in progress. Thank you for your patience!
 
 ### Features in Progress
 - responsiveness
