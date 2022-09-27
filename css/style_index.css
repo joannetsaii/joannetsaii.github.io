@@ -258,9 +258,9 @@
 @media (min-width: 992px) { /* Large device */
     .site-main > .site-banner .intro h5 {
         font-family: 'Outfit', sans-serif;
-        color: #61bcad;
+        color: #869d7b; 
         font-size: 1.8rem;
-        margin: -6% auto 0 13%;
+        margin: -15% auto 0 13%;
         width: 20ch;
         animation: typing 2s steps(25), blink .7s step-end infinite alternate;
         white-space: nowrap;
@@ -285,7 +285,7 @@
     }
 
     .site-main .site-banner .banner-image > img {
-        margin: 35% 0 0 4rem;
+        margin: 25% 0 0 4rem;
         width: 20rem;
         border-radius: 50%;
         animation-name: floating;
@@ -369,6 +369,28 @@
         text-decoration: none;
         font-weight: 500;
         color: #333333;
+    }
+
+    .site-intro .intro .card-text a {
+        text-decoration: none;
+        color: #8489bd;
+        font-weight: 500;
+    }
+    .site-intro .intro .card-text a:hover {
+        color: #8489bd;
+        font-weight: 500;
+    }
+    
+    .site-intro .intro .card-text a:visited {
+        text-decoration: none;
+        font-weight: 500;
+        color: #8489bd;
+    }
+    
+    .site-intro .intro .card-text a:links {
+        text-decoration: none;
+        font-weight: 500;
+        color: #8489bd;
     }
     
     /* Experience table */
@@ -461,10 +483,9 @@
         font-family: 'Poppins', sans-serif;
     }
 
-        /******************************************************************************/
-/****************************** Get in Touch Area *****************************/
-/******************************************************************************/
-    /* Get in Touch text */
+    /**************************************************************************/
+    /***************************** Get in Touch Area **************************/
+    /**************************************************************************/
     .bottom-main .about-area {
         background: #393b3f;
         margin-top: 3%;
@@ -492,15 +513,6 @@
     .about-area .getInTouch .dot3-2 .about-text-sm {
         display: none;
     }
-/* .about-area .getInTouch .about-text {
-    padding-top: 43%;
-    font-weight: 300;
-    margin-left: 29%;
-    margin-right: 0;
-    font-size: 18px;
-    line-height: 32px;
-    color: #333;
-} */
 
     .bottom-main .about-area .getInTouch .dot3-1 h3 {
         margin-left: 37%;
@@ -583,46 +595,38 @@
     }
 
 }
-  
 
-
-
-
-.about-image {
-    width: 40%;
-    margin-left: 9rem;
-    margin-top: 7%;
-    margin-right: 0;
-}
-
+/* down-pointing arrow */
 .site-main ion-icon {
     position: relative;
-    color: #393939;
+    color: #8a8989;
     opacity: 0.9;
     font-size: 3rem;
-    margin-top: 3.5rem;
+    margin-top: 4.5rem;
+    transition: transform .2s;
 }
 
 .site-main ion-icon:hover {
     position: relative;
-    color: #1A1A1A;
+    color: #787777;
     opacity: 0.9;
     font-size: 3rem;
-    margin-top: 3.5rem;
+    margin-top: 4.5rem;
+    transform: scale(1.1);
 }
 
 .site-main ion-icon:visited {
     position: relative;
-    color: #393939;
+    color: #8a8989;
     opacity: 0.9;
     font-size: 3rem;
-    margin-top: 3.5rem;
+    margin-top: 4.5rem;
 }
 
 .site-main ion-icon:links {
     position: relative;
-    color: #393939;
+    color: #8a8989;
     opacity: 0.9;
     font-size: 3rem;
-    margin-top: 3.5rem;
+    margin-top: 4.5rem;
 }

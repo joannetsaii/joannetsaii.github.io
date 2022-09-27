@@ -82,27 +82,6 @@ body {
         transform: scale(1.1); 
     }
 
-    /* Side nav bar */
-    .nav {
-        position: fixed;
-        bottom: 0;
-        right: 1%;
-        overflow-y: auto; 
-        z-index: 5;
-    }
-
-    .nav a > ion-icon {
-        font-size: 22px;
-        padding: 0.4rem;
-        color: var(--primary-black);
-        transition: transform .2s;
-    }
-
-    .nav a:hover > ion-icon {
-        color: var(--primary-black);
-        transform: scale(1.1); 
-    }
-
     /* Navigation Bar */
     .navbar {
         opacity: 0.9;
@@ -129,10 +108,6 @@ body {
         padding: 0.9rem 0 0.5rem 2.8rem;
     }
 
-    /* .nav-item a:hover {
-        color: var(--primary-blue);
-    } */
-
     .nav-item .active {
         text-decoration: underline;
         text-underline-position: under;
@@ -144,61 +119,26 @@ body {
         background: #595958;
         margin-top: 3%;
     }
-    
-    /* footer.footer-area .social a > ion-icon {
-        font-size: 22px;
-        padding: 1rem;
-        color: #FFF;
-        transition: transform .2s;
-    }
-    
-    footer.footer-area .social a:hover > ion-icon {
-        color: #FFF;
-        transform: scale(1.1); 
-    } */
-
-    /* Side nav bar */
-    .nav {
-        position: fixed;
-        bottom: 0;
-        right: 1%;
-        overflow-y: auto; 
-        z-index: 5;
-        /* it will have the scroll if it has more content */
-    }
-
-    /* .nav a > ion-icon {
-        font-size: 22px;
-        padding: 0.4rem;
-        color: var(--primary-black);
-        transition: transform .2s;
-    }
-
-    .nav a:hover > ion-icon {
-        color: var(--primary-black);
-        transform: scale(1.1); 
-    } */
 
     /* Navigation Bar */
     .navbar {
-        opacity: 0.8;
-        /* margin-bottom: 35%; */
+        color: #FFF;
     }
 
     .navbar-brand {  /* joanne tsai */
-        padding: 0.6rem 0 0.6rem 13.5%;
+        padding: 0.6rem 0 0.6rem 4.6%;
         font-family: 'Outfit', sans-serif;
-        font-size: 1.6rem;
-        font-weight: 400;
+        font-size: 1.5rem;
+        font-weight: 300;
     }
 
     .nav-item { /* nav tabs */
-        padding: 0.6rem 20% 0.5rem 0;
+        padding: 0.6rem 15% 0.5rem 0;
     }
 
     .navbar-nav {
         margin-top: 0;
-        margin-right: 25%; /* distance between right border and last nav item */
+        margin-right: 10%; /* distance between right border and last nav item */
         font-family: 'Outfit', sans-serif;
         font-size: 1.2rem;
         font-weight: 200;
@@ -208,8 +148,6 @@ body {
         text-decoration: underline;
         text-underline-position: under;
     }
-
-
 
 }
 
