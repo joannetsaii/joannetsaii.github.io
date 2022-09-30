@@ -90,9 +90,9 @@ body {
 
     .navbar-brand {  /* joanne tsai */
         padding: 0.5rem 1rem 0.5rem 6vw;
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Outfit', sans-serif;
         font-size: 22px;
-        font-weight: 600;
+        font-weight: 300;
         color: var(--primary-black);
     }
 

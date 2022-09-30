@@ -1,58 +1,58 @@
-.site-main > .site-banner .intro {
+/* .site-main > .site-banner .intro {
     margin: 26% 0 0 0;
-}
+} */
 
-@media (min-width: 400px) { /* Small device */
-    .card-title {
-        width: 23ch;
+@media (min-width: 476px) and (max-width: 767.98px) { /* Small device */
+    .site-main > .site-banner .site-intro {
+      margin: 13% 0 0 0;
+    }  
+    .card-title { /* hello title */
+        width: 24ch;
         animation: typing 2.5s steps(25), blink .7s step-end infinite alternate;
         white-space: nowrap;
         overflow: hidden;
         border-right: 3px solid;
-        font-size: 2em;
     }
-    
-    @keyframes typing {
-        from {
-            width: 0
-        }
-    }
-        
-    @keyframes blink {
-        50% {
-            border-color: transparent
-        }
-    }
+    @keyframes typing { from { width: 0 } }
+    @keyframes blink { 50% { border-color: transparent } }
 
-    .site-main > .site-banner .intro h5 {
+    .site-intro h5 {
         font-family: 'Poppins', sans-serif;
-        color: #61bcad;
-        margin: 0 0 0 0;
-        font-size: 1.5rem;
+        color: #869d7b; 
+        font-size: 1.4rem;
+        text-align: center;
+        margin: auto auto 3rem auto;
     }
 
-    .site-main > .site-banner .intro p { /* intro text in the box */
-        font-family: 'Jost', sans-serif;
+    /* .site-main > .site-banner .intro h5 { /* hello title */
+        /* display: none;
+    } */ 
+
+    .site-main > .site-banner .site-intro p { /* intro text in the box */
+        font-family: 'Poppins', sans-serif;
         color: var(--primary-black);
         font-weight: 300;
-        margin: 2rem 12vw 0 0;
         font-size: 0.9rem;
         line-height: 28px;
+        text-align: left;
+        margin: 3rem 5% 9% 5%;
     }
 
     .site-main .site-banner .banner-image > img {
-        margin: 1rem 0 0 14vw;
-        width: 20rem;
-        border-radius: 18%;
+        margin: 2.8rem auto 0 auto;
+        display: block;
+        width: 70%;
+        border-radius: 3%;
     }
 
     /* headings in bubbles */
-    .about-area .about-intro h3 {
-        margin: 0 0 0 2.5vw;
+    .about-area .about-heading h3 {
+        text-align: center;
+        margin: 0 auto 0 auto;
         position: relative;
-        color: #61bcad;
+        color: var(--primary-black);
         font-family: 'Poppins', sans-serif;
-        font-weight: 600;
+        font-weight: 200;
         font-size: 7vw;
     }
     
@@ -66,6 +66,7 @@
     .about-area .about-experience .hyperlink {
         text-decoration: none;
         color: #333333;
+        font-weight: 300;
     }
     
     .about-area .about-experience .hyperlink:hover {
@@ -85,43 +86,57 @@
         color: #333333;
     }
     
-    /* Experience table */
-    /* .about-info .table {
-        margin: -6% 0 0 1.5vw;
-    } */
+    .site-intro .card-text a {
+        text-decoration: underline; 
+        text-underline-position: under;
+        color: #8489bd;
+        font-weight: 500;
+    }
+    .site-intro .card-text a:hover {
+        text-decoration: underline; 
+        text-underline-position: under;
+        color: #8489bd;
+        font-weight: 500;
+    }
+    .site-intro .card-text a:visited {
+        text-decoration: underline; 
+        text-underline-position: under;
+        color: #8489bd;
+        font-weight: 500;
+    }
+    .site-intro .card-text a:links {
+        text-decoration: underline; 
+        text-underline-position: under;
+        color: #8489bd;
+        font-weight: 500;
+    }
     
-    .about-info .table, tr, td {
+    /*  table */
+    .about-info .table-sm {
+        margin: 0 auto 0 auto;
+    }
+    
+    .about-info .table-sm, tr, td {
         border: none;
+    }
+
+    .about-info .table {
+        display: none;
     }
     
     /* Experience section text */
-
-    .about-area .about-experience-heading {
+    .about-area .about-experience-heading { /* Currently and Previously */
         font-weight: 700;
         font-family: 'Poppins', sans-serif;
-        transition: transform .2s;
         color: #b5b2c5;
     }
 
-    .about-area .about-coursework h3 {
-        margin: 0 0 0 2.5vw;
-        position: relative;
-        color: #61bcad;
-        font-family: 'Poppins', sans-serif;
-        font-weight: 600;
-        font-size: 7vw;
-    }
-    
-    .about-area .about-coursework h3::after{
-        margin: 0 0 0 2.5vw;
-        position: relative;
-        color: #61bcad;
-        font-family: 'Poppins', sans-serif;
-        font-weight: 600;
-        font-size: 7vw;
-    }
 
     /********************** Accordions **********************/
+    .accordion {
+        display: block;
+        margin: auto 5% 0 5%;
+    }
     .about-area .about-info .accordion-item {
         font-family: 'Poppins', sans-serif;
         color: var(--primary-black);
@@ -160,7 +175,8 @@
         background: #FFF; /* content background */
         border-radius: 10px;
         font-size: 0.9rem;
-        font-family: 'Inter', sans-serif;
+        line-height: 1.6;
+        font-family: 'Poppins', sans-serif;
     }
 
     /**************************************************************************/
@@ -171,37 +187,39 @@
     }
 
     .about-area .getInTouch .dot3-2 .about-text-sm {
-        margin: -10rem 0 0 2.5vw;
+        text-align: center;
+        margin: 0 auto 2rem auto;
         position: relative;
-        color: #61bcad;
+        color: var(--primary-black);
         font-family: 'Poppins', sans-serif;
-        font-weight: 600;
+        font-weight: 200;
         font-size: 7vw;
     }
 
     /* Contact Information Button */
     .bottom-main .about-area .getInTouch-info button {
         background: transparent;
-        transition: transform .2s;
-        border: 1px solid #AAB3FF;
-        border-radius: 50px;
-        padding: 16px 30px 16px 30px;
+        border: none;
         font-family: 'Poppins', sans-serif;
         font-size: 0.9rem;
         font-weight: 300;
-        margin: 1.5rem 0 0 2.5vw;
+        margin: 2% auto 0 6%;
+        text-decoration: underline;
+        text-underline-position: under;
+        color: #869d7b;
     }
 
     .bottom-main .about-area .getInTouch-info button:hover {
-        transform: scale(1.05);
         background: transparent;
-        border: 1px solid #AAB3FF;
-        border-radius: 50px;
-        padding: 16px 30px 16px 30px;
+        border: none;
         font-family: 'Poppins', sans-serif;
         font-size: 0.9rem;
         font-weight: 300;
-        margin: 1.5rem 0 0 2.5vw;
+        margin: 2% auto 0 6%;
+        text-decoration: underline;
+        text-underline-position: under;
+        color: #869d7b;
+        
     }
 
     /* Text Line 1 */
@@ -210,7 +228,8 @@
         font-family: 'Poppins', sans-serif;
         font-size: 0.9rem;
         font-weight: 300;
-        margin: -17vw 0 0 2.5vw;
+        margin: 0 5% 0 8%;
+        display: block;
     }
 
     /* Text Line 2 */
@@ -219,33 +238,33 @@
         font-family: 'Poppins', sans-serif;
         font-size: 0.9rem;
         font-weight: 300;
-        margin: 4vw 0 0 2.5vw;
-    }
-
-    /* Get in Touch title */
-    .site-main .getInTouch-info h3 {
-        margin: 0 0 0 2.5vw;
-        position: relative;
-        color: #61bcad;
-        font-family: 'Poppins', sans-serif;
-        font-weight: 600;
-        font-size: 7vw;
+        margin: 2% 5% 0 8%;
     }
 
     .dot3-1 {
         display: none;
     }
+
+    .bottom-main .about-area .getInTouch-info .copyrights {
+        color: rgb(107, 107, 107);
+        font-family: 'Outfit', sans-serif;
+        opacity: 0.9;
+        font-size: 1rem;
+        font-weight: 200;
+        margin: 15% 5% auto 5%;
+        text-align: center;
+    }
 }
 
-@media (min-width: 768px) { /* Medium device */
-    .site-main > .site-banner .intro h5 {
+@media (min-width: 768px) and (max-width: 969.98px) { /* Medium device */
+    .site-main > .site-banner .site-intro h5 {
         font-family: 'Poppins', sans-serif;
         color: #61bcad;
         padding-left: 2rem;
         margin: 0 10vw 0 2.5vw;
         font-size: 2rem;
     }
-    .site-main > .site-banner .intro p { /* intro text in the box */
+    .site-main > .site-banner .site-intro p { /* intro text in the box */
         font-family: 'Poppins', sans-serif;
         color: var(--primary-black);
         font-weight: 300;
@@ -255,37 +274,39 @@
     }
 }
 
-@media (min-width: 992px) { /* Large device */
-    .site-main > .site-banner .intro h5 {
+@media (min-width: 970px) { /* Large device */
+    .site-main > .site-banner .site-intro h5 {
         font-family: 'Outfit', sans-serif;
         color: #869d7b; 
         font-size: 1.8rem;
-        margin: -15% auto 0 13%;
+        margin: 13% auto 2% 3.9%;
         width: 20ch;
-        animation: typing 2s steps(25), blink .7s step-end infinite alternate;
+        animation: typing 2s steps(22), blink .7s step-end infinite alternate;
         white-space: nowrap;
         overflow: hidden;
         border-right: 3px solid;
     }
-    .site-main > .site-banner .intro p { /* intro text in the box */
+
+    .site-main > .site-banner .site-intro p { /* self-intro text */
         font-family: 'Poppins', sans-serif;
         color: var(--primary-black);
         font-weight: 300;
-        margin: 2rem 4% 0 17.5%;
+        margin: 2rem 11.5% 0 4%;
+        text-align: left;
         font-size: 0.9rem;
         line-height: 28px;
-    }
-    
-    @keyframes typing {
-        from { width: 0 }
-    }
-        
-    @keyframes blink {
-        50% { border-color: transparent }
+        position: relative;
     }
 
+    /* .site-intro-sm {
+        display: none;
+    } */
+    
+    @keyframes typing { from { width: 0 } }
+    @keyframes blink { 50% { border-color: transparent } }
+
     .site-main .site-banner .banner-image > img {
-        margin: 25% 0 0 4rem;
+        margin: 30% 0 0 14.5%;
         width: 20rem;
         border-radius: 50%;
         animation-name: floating;
@@ -328,7 +349,7 @@
     }
 
     /* headings in bubbles */
-    .about-area .about-intro h3 {
+    .about-area .about-heading h3 {
         margin-left: 37%;
         margin-top: 43%;
         margin-bottom: 0;
@@ -339,7 +360,7 @@
         font-size: 1.6rem;
     }
 
-    .about-area .about-intro h3::after{
+    .about-area .about-heading h3::after{
         content: " ";
         height: 1.5px;
         width: 10.5vw;
@@ -352,6 +373,7 @@
     .about-area .about-experience .hyperlink {
         text-decoration: none;
         color: #333333;
+        font-weight: 300;
     }
     
     .about-area .about-experience .hyperlink:hover {
@@ -371,23 +393,23 @@
         color: #333333;
     }
 
-    .site-intro .intro .card-text a {
+    .site-intro .card-text a {
         text-decoration: none;
         color: #8489bd;
         font-weight: 500;
     }
-    .site-intro .intro .card-text a:hover {
+    .site-intro .card-text a:hover {
         color: #8489bd;
         font-weight: 500;
     }
     
-    .site-intro .intro .card-text a:visited {
+    .site-intro .card-text a:visited {
         text-decoration: none;
         font-weight: 500;
         color: #8489bd;
     }
     
-    .site-intro .intro .card-text a:links {
+    .site-intro .card-text a:links {
         text-decoration: none;
         font-weight: 500;
         color: #8489bd;
@@ -395,11 +417,15 @@
     
     /* Experience table */
     .about-info .table {
-        margin-top: 0.5%;
+        margin-top: 6%;
     }
     
     .about-info .table, tr, td {
         border: none;
+    }
+
+    .about-info .table-sm {
+        display: none;
     }
     
     /* Experience section text */
@@ -420,7 +446,7 @@
     }
 
     .about-area .about-coursework h3 {
-        margin: 43% 0 0 32%;
+        margin: 43% 0 0 20%;
         position: absolute;
         color: #FFF;
         font-family: 'Poppins', sans-serif;
@@ -439,7 +465,7 @@
     }
 
     .about-area .about-info .accordion {
-        margin-top: -7%;
+        margin-top: 0;
     }
     
     .about-area .about-info .accordion-item {
@@ -570,8 +596,8 @@
         font-family: 'Poppins', sans-serif;
         font-size: 1rem;
         font-weight: 200;
-        margin-top: 4%;
-        margin: 0 1% 0 5%;
+        margin: 0 auto 0 5%;
+        display: block;
     }
 
     /* Text Line 2 */
@@ -580,7 +606,8 @@
         font-family: 'Poppins', sans-serif;
         font-size: 1rem;
         font-weight: 200;
-        margin: 2.8% 1% 3% 5%;
+        margin: 2.8% auto 3% 5%;
+        display: block;
     }
 
     .bottom-main .about-area .getInTouch-info .copyrights {
@@ -594,39 +621,42 @@
         margin-left: 5%;
     }
 
+
+    /* down-pointing arrow */
+    .site-main ion-icon {
+        position: relative;
+        color: #8a8989;
+        opacity: 0.9;
+        font-size: 3rem;
+        margin-top: 11%;
+        transition: transform .2s;
+    }
+
+    .site-main ion-icon:hover {
+        position: relative;
+        color: #787777;
+        opacity: 0.9;
+        font-size: 3rem;
+        margin-top: 11%;
+        transform: scale(1.1);
+    }
+
+    .site-main ion-icon:visited {
+        position: relative;
+        color: #8a8989;
+        opacity: 0.9;
+        font-size: 3rem;
+        margin-top: 11%;
+    }
+
+    .site-main ion-icon:links {
+        position: relative;
+        color: #8a8989;
+        opacity: 0.9;
+        font-size: 3rem;
+        margin-top: 11%;
+    }
+
 }
 
-/* down-pointing arrow */
-.site-main ion-icon {
-    position: relative;
-    color: #8a8989;
-    opacity: 0.9;
-    font-size: 3rem;
-    margin-top: 4.5rem;
-    transition: transform .2s;
-}
 
-.site-main ion-icon:hover {
-    position: relative;
-    color: #787777;
-    opacity: 0.9;
-    font-size: 3rem;
-    margin-top: 4.5rem;
-    transform: scale(1.1);
-}
-
-.site-main ion-icon:visited {
-    position: relative;
-    color: #8a8989;
-    opacity: 0.9;
-    font-size: 3rem;
-    margin-top: 4.5rem;
-}
-
-.site-main ion-icon:links {
-    position: relative;
-    color: #8a8989;
-    opacity: 0.9;
-    font-size: 3rem;
-    margin-top: 4.5rem;
-}

@@ -3,86 +3,59 @@
     background-color: #FFF;
 }
 
-@media (min-width: 400px) { /* Small device */
+@media (min-width: 476px) and (max-width: 767.98px) { /* Small device */
     .grid { /* distance between grid and the page borders */
         margin-right: 5%;
         margin-left: 5%;
     }
 
     .the-project .img {
-        margin: 10rem 0 0 0;
+        margin: 2rem 0 0 0;
     }
     .the-project .img-1 {  /* the first image */
-        margin: 4rem 0 0 0;
+        margin: 6% 0 0 0;
     }
 
-    .site-work .project-area .grid .the-project .img-1 .img-main {
-        position: relative;
-        display: block;
-        margin: 10% auto 0 auto;
-        width: 80%;
+    .site-work .project-area .row .the-project .description {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+        font-size: 0.9rem;
+        line-height: 1.7;
+        margin-right: 19%;
     }
-
-    /* .site-work .project-area .grid .the-project .img-1 .img-hover {
-        position: relative;
+    .site-work .project-area .row .the-project .img img.main {
+        position: absolute;
+        width: 70%;
+        height: auto;
         display: block;
-        margin: 5% auto 0 auto;
-        width: 70%;
-        /* position: absolute;
-        margin: 4% 5% 0 5%;
-        width: 70%;
+        margin: 0 auto 5rem auto;
+    }
+    .site-work .project-area .row .the-project .img img.hover {
+        position: absolute;
         object-fit: contain;
         opacity: 0;
-        transition: opacity .5s; */
-    /* } */
-
-    /* .site-work .project-area .grid .the-project .img-1:hover img.img-hover {
-        opacity: 1;
-    } */
-    
-    .site-work .project-area .grid .the-project .img img.img-main {
-        position: relative;
-        display: block;
-        margin: 0 auto 0 auto;
+        transition: opacity .5s;
         width: 70%;
+        height: auto;
+        display: block;
+        margin: 0 auto 5rem auto;
     }
-    
-    /* .site-work .project-area .grid .the-project .img img.img-hover {
-      position: absolute;
-      object-fit: contain;
-      opacity: 0;
-      transition: opacity .5s;
-      width: 2rem;
-      height: auto;
-      margin: 0 auto 0 auto;
-      display:flexbox;
-    } */
-    
-    /* .site-work .project-area .grid .the-project .img:hover img.img-hover {
-      opacity: 1;
-    } */
+    .site-work .project-area .row .the-project .img:hover img.hover {
+        opacity: 1;
+    }
 
-    /* project names */
-    .site-work .project-area .grid .the-project > .title h4 {
-        font-family: 'Poppins', sans-serif;
+    .site-work .project-area .row .the-project > .title h4 {
+        font-family: 'Outfit', sans-serif;
         color: var(--primary-black);
-        font-size: 1.6rem;
-        margin: 1rem auto 0 auto;
+        font-size: 1.7rem;
+        margin: 0 auto 1rem 0;
     }
 
-    .site-work .project-area .grid .the-project > .skills p {
+    .site-work .project-area .row .the-project > .skills p {
         font-family: 'Open Sans', sans-serif;
         color: #8f8f8f;
         font-size: 1rem;
         font-style: italic;
-    }
-
-    .site-work .project-area .grid .the-project .description {
-        font-family: 'Poppins', sans-serif;
-        font-weight: 300;
-        font-size: 0.9rem;
-        line-height: 1.8;
-        margin-bottom: 2.5%;
     }
 
     .site-work .project-area .grid .the-project .img .background {
@@ -91,94 +64,193 @@
         width: 100%;
         background: #555;
     }
+
+    .view-demo-button button {
+        transition: transform .2s;
+        color: #5762c3;
+        font-family: 'Poppins', sans-serif;
+        font-size: 0.9rem;
+        background-color: rgb(253, 252, 252);
+        border: 2px solid #5762c3;
+        border-radius: 8px;
+        opacity: 0.8;
+        padding: 6px 18px 6px 18px;
+        margin: 1.5rem 1.5rem auto auto;
+    }
+    
+    .view-demo-button button:hover {
+        transition: transform .2s;
+        color: rgb(253, 252, 252);
+        font-family: 'Poppins', sans-serif;
+        font-size: 0.9rem;
+        background-color: #5762c3;
+        border: 2px solid #5762c3;
+        border-radius: 8px;
+        opacity: 0.8;
+        padding: 6px 18px 6px 18px;
+        margin: 1.5rem 1.5rem auto auto;
+    }
+
+    .view-demo-button button:visited {
+        transition: transform .2s;
+        color: #5762c3;
+        font-family: 'Poppins', sans-serif;
+        font-size: 0.9rem;
+        background-color: rgb(253, 252, 252);
+        border: 2px solid #5762c3;
+        border-radius: 8px;
+        opacity: 0.8;
+        padding: 6px 18px 6px 18px;
+        margin: 1.5rem 1.5rem auto auto;
+    }
+
+    .view-demo-button button:links {
+        transition: transform .2s;
+        color: #5762c3;
+        font-family: 'Poppins', sans-serif;
+        font-size: 0.9rem;
+        background-color: rgb(253, 252, 252);
+        border: 2px solid #5762c3;
+        border-radius: 8px;
+        opacity: 0.8;
+        padding: 6px 18px 6px 18px;
+        margin: 1.5rem 1.5rem auto auto;
+    }
+
+    /**************************************************************************/
+    /***************************** Get in Touch Area **************************/
+    /**************************************************************************/
+    .about-area .getInTouch .dot3-1 .about-text {
+        display: none;
+    }
+
+    .about-area .getInTouch .dot3-2 .about-text-sm {
+        text-align: center;
+        margin: 0 auto 2rem auto;
+        position: relative;
+        color: var(--primary-black);
+        font-family: 'Poppins', sans-serif;
+        font-weight: 200;
+        font-size: 7vw;
+    }
+
+    /* Contact Information Button */
+    .bottom-main .about-area .getInTouch-info button {
+        background: transparent;
+        border: none;
+        font-family: 'Poppins', sans-serif;
+        font-size: 0.9rem;
+        font-weight: 300;
+        margin: 2% auto 0 3%;
+        text-decoration: underline;
+        text-underline-position: under;
+        color: #869d7b;
+    }
+
+    .bottom-main .about-area .getInTouch-info button:hover {
+        background: transparent;
+        border: none;
+        font-family: 'Poppins', sans-serif;
+        font-size: 0.9rem;
+        font-weight: 300;
+        margin: 2% auto 0 3%;
+        text-decoration: underline;
+        text-underline-position: under;
+        color: #869d7b;
+    }
+
+    /* Text Line 1 */
+    .bottom-main .about-area .getInTouch-info .getInTouch-ThankYou {
+        color: var(--primary-black);
+        font-family: 'Poppins', sans-serif;
+        font-size: 0.9rem;
+        font-weight: 300;
+        margin: 0 5% 0 5%;
+    }
+
+    /* Text Line 2 */
+    .bottom-main .about-area .getInTouch-info .getInTouch-reachMe {
+        color: var(--primary-black);
+        font-family: 'Poppins', sans-serif;
+        font-size: 0.9rem;
+        font-weight: 300;
+        margin: 2% 5% 0 5%;
+    }
+
+    /* Get in Touch title */
+    .site-main .getInTouch-info h3 {
+        margin: 0 0 0 2.5vw;
+        position: relative;
+        color: #61bcad;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 7vw;
+    }
+
+    .dot3-1 {
+        display: none;
+    }
+
+    .bottom-main .about-area .getInTouch-info .copyrights {
+        color: rgb(107, 107, 107);
+        font-family: 'Outfit', sans-serif;
+        opacity: 0.9;
+        font-size: 1rem;
+        font-weight: 200;
+        margin: 15% 5% auto 5%;
+        text-align: center;
+    }
 }
 
-@media (min-width: 992px) { /* Large device */
+/* @media (min-width: 768px) and (max-width: 969.98px) {
+} */
+
+@media (min-width: 768px) { /* Large device */
     .grid { /* distance between grid and the page borders */
         margin-right: 9.5%;
         margin-left: 9.5%;
     }
     .the-project {
-        margin: 18% 0 0 0;
+        margin-top: 10%;
     }
-    .site-work .project-area .grid .the-project .description {
+    .site-work .project-area .row .the-project .description {
         font-family: 'Poppins', sans-serif;
         font-weight: 300;
-        margin-left: 2rem;
+        font-size: 0.9rem;
+        line-height: 1.7;
+        margin-right: 17%;
     }
-    .site-work .project-area .grid .the-project .img-1 img.main {
+    .site-work .project-area .row .the-project .img img.main {
         position: absolute;
-        width: 20rem;
+        width: 22%;
         height: auto;
-        margin: 2rem 3rem 0 0;
+        margin: 0.2rem auto 5rem 10%;
     }
-    .site-work .project-area .grid .the-project .img-1 img.hover {
-        position: absolute;
-        object-fit: contain;
-        opacity: 0;
-        transition: opacity .5s;
-        width: 20rem;
-        height: auto;
-        margin: 2rem 3rem 0 0;
-    }
-    .site-work .project-area .grid .the-project .img-1:hover img.hover {
-        opacity: 1;
-    }
-
-    .site-work .project-area .grid .the-project .img img.main {
-        position: absolute;
-        width: 20rem;
-        height: auto;
-        margin: 0 3rem 0 0;
-    }
-    .site-work .project-area .grid .the-project .img img.hover {
+    .site-work .project-area .row .the-project .img img.hover {
         position: absolute;
         object-fit: contain;
         opacity: 0;
         transition: opacity .5s;
-        width: 20rem;
+        width: 22%;
         height: auto;
-        margin: 0rem 3rem 0 0;
+        margin: 0.2rem auto 5rem 10%;
     }
-    .site-work .project-area .grid .the-project .img:hover img.hover {
+    .site-work .project-area .row .the-project .img:hover img.hover {
         opacity: 1;
     }
-    
-    /* project names */
-    .site-work .project-area .grid .the-project > .title-1 h4 {
+
+    .site-work .project-area .row .the-project > .title h4 {
         font-family: 'Outfit', sans-serif;
         color: var(--primary-black);
         font-size: 1.7rem;
-        margin: -6.5rem auto 0 2rem
+        margin: 0 auto 1rem 0;
     }
 
-    .site-work .project-area .grid .the-project > .title h4 {
-        font-family: 'Outfit', sans-serif;
-        color: var(--primary-black);
-        font-size: 1.7rem;
-        margin-left: 2rem;
-        margin-top: 0.5rem;
-    }
-
-    .site-work .project-area .grid .the-project > .skills-1 p {
+    .site-work .project-area .row .the-project > .skills p {
         font-family: 'Open Sans', sans-serif;
         color: #8f8f8f;
         font-size: 1rem;
         font-style: italic;
-        margin-left: 2rem;
-        margin-top: -1.5rem;
-    }
-
-    .site-work .project-area .grid .the-project > .skills p {
-        font-family: 'Open Sans', sans-serif;
-        color: #8f8f8f;
-        font-size: 1rem;
-        font-style: italic;
-        margin-left: 2rem;
-    }
-
-    .blankspace {  /* for adding white space */
-        padding: 2rem;
     }
 
 /******************************************************************************/
@@ -292,7 +364,7 @@
         margin-left: 5%;
     }
 
-    .view-demo-button button {
+    .view-demo-btn button {
         transition: transform .2s;
         color: #5762c3;
         font-family: 'Poppins', sans-serif;
@@ -302,10 +374,10 @@
         border-radius: 8px;
         opacity: 0.8;
         padding: 6px 18px 6px 18px;
-        margin: 0.5rem 0 0 2rem;
+        margin: 1rem 2rem 0 0;
     }
     
-    .view-demo-button button:hover {
+    .view-demo-btn button:hover {
         transform: scale(1.05); 
         transition: transform .2s;
         color: #5762c3;
@@ -316,10 +388,10 @@
         border-radius: 8px;
         opacity: 0.8;
         padding: 6px 18px 6px 18px;
-        margin: 0.5rem 0 0 2rem;
+        margin: 1rem 2rem 0 0;
     }
 
-    .view-demo-button button:visited {
+    .view-demo-btn button:visited {
         transition: transform .2s;
         color: #5762c3;
         font-family: 'Poppins', sans-serif;
@@ -329,10 +401,10 @@
         border-radius: 8px;
         opacity: 0.8;
         padding: 6px 18px 6px 18px;
-        margin: 0.5rem 0 0 2rem;
+        margin: 1rem 2rem 0 0;
     }
 
-    .view-demo-button button:links {
+    .view-demo-btn button:links {
         transition: transform .2s;
         color: #5762c3;
         font-family: 'Poppins', sans-serif;
@@ -342,7 +414,7 @@
         border-radius: 8px;
         opacity: 0.8;
         padding: 6px 18px 6px 18px;
-        margin: 0.5rem 0 0 2rem;
+        margin: 1rem 2rem 0 0;
     }
 
 
