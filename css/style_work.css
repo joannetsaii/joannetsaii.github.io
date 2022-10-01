@@ -1,9 +1,8 @@
-/* work Top Area */ 
 .site-work { /* Background */
     background-color: #FFF;
 }
 
-@media (min-width: 476px) and (max-width: 767.98px) { /* Small device */
+@media (max-width: 767.98px) { /* Small device */
     .grid { /* distance between grid and the page borders */
         margin-right: 5%;
         margin-left: 5%;
@@ -48,7 +47,7 @@
         font-family: 'Outfit', sans-serif;
         color: var(--primary-black);
         font-size: 1.7rem;
-        margin: 0 auto 1rem 0;
+        margin: 18rem auto 1rem 0;
     }
 
     .site-work .project-area .row .the-project > .skills p {
@@ -65,7 +64,7 @@
         background: #555;
     }
 
-    .view-demo-button button {
+    .view-btn button {
         transition: transform .2s;
         color: #5762c3;
         font-family: 'Poppins', sans-serif;
@@ -78,7 +77,7 @@
         margin: 1.5rem 1.5rem auto auto;
     }
     
-    .view-demo-button button:hover {
+    .view-btn button:hover {
         transition: transform .2s;
         color: rgb(253, 252, 252);
         font-family: 'Poppins', sans-serif;
@@ -91,7 +90,7 @@
         margin: 1.5rem 1.5rem auto auto;
     }
 
-    .view-demo-button button:visited {
+    .view-btn button:visited {
         transition: transform .2s;
         color: #5762c3;
         font-family: 'Poppins', sans-serif;
@@ -104,7 +103,7 @@
         margin: 1.5rem 1.5rem auto auto;
     }
 
-    .view-demo-button button:links {
+    .view-btn button:links {
         transition: transform .2s;
         color: #5762c3;
         font-family: 'Poppins', sans-serif;
@@ -364,7 +363,7 @@
         margin-left: 5%;
     }
 
-    .view-demo-btn button {
+    .view-btn button {
         transition: transform .2s;
         color: #5762c3;
         font-family: 'Poppins', sans-serif;
@@ -377,7 +376,7 @@
         margin: 1rem 2rem 0 0;
     }
     
-    .view-demo-btn button:hover {
+    .view-btn button:hover {
         transform: scale(1.05); 
         transition: transform .2s;
         color: #5762c3;
@@ -391,7 +390,7 @@
         margin: 1rem 2rem 0 0;
     }
 
-    .view-demo-btn button:visited {
+    .view-btn button:visited {
         transition: transform .2s;
         color: #5762c3;
         font-family: 'Poppins', sans-serif;
@@ -404,7 +403,7 @@
         margin: 1rem 2rem 0 0;
     }
 
-    .view-demo-btn button:links {
+    .view-btn button:links {
         transition: transform .2s;
         color: #5762c3;
         font-family: 'Poppins', sans-serif;
