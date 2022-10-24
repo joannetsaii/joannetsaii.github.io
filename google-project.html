@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google - STEP Internship - Joanne Tsai</title>
+    <title>Google STEP Internship — Joanne Tsai</title>
 
     <!-- Bootstrap css file -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Bootstrap Font Icon CSS -->
+    <link rel="stylesheet" href=
+    "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+
     <!-- Custom css file -->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/style_work.css">
-    <link rel="stylesheet" href="css/style_google.css">
-    <!-- jQuery js file -->
-    <script src="./js/jquery.3.4.1.js"></script>
+    <link rel="stylesheet" href="css/style_project.css">
+
     <!-- Bootstrap js file -->
     <script src="./js/bootstrap.min.js"></script>
     <!-- Favicon -->
@@ -24,7 +27,7 @@
                     START SECTION 1 - THE NAVBAR SECTION  
 /////////////////////////////////////////////////////////////////////////////-->
 <header>
-    <div class="main-menu">
+    <div class="header_area">
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">Joanne Tsai</a>
@@ -34,8 +37,8 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-4 mb-lg-0">
                     <li class="nav-item"><a class="nav-link" aria-current="page" href="index.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="work.html">Work</a></li>  
-                    <li class="nav-item"><a class="nav-link" href="https://drive.google.com/file/d/1qh3NXesug4rVS_ma3TZQOtpmt0mwwLjX/view?usp=sharing" target="_blank">Resume</a></li>
+                    <li class="nav-item" style="color: rgb(182, 182, 182);"><a class="nav-link active" href="work.html">Work</a></li>  
+                    <li class="nav-item" style="color: rgb(182, 182, 182);"><a class="nav-link" href="https://drive.google.com/file/d/1NP3ZzLOj8af-T0Yz9G1IW49oBMNal5pF/view?usp=sharing" target="_blank">Resume</a></li>
                 </ul>
                 </div>
             </div>
@@ -46,213 +49,184 @@
 <!-- ///////////////////////////////////////////////////////////////////////////
                     START SECTION 2 - BASIC PROJECT INFO
 /////////////////////////////////////////////////////////////////////////////-->
-<main class="site-project">
-    <section class="project-area">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="rectangle"></div>
-                <div class="col-lg-12 col-md-12 top-img">
-                    <img src="assets/google-top-transparent.png" alt="Google">
-                </div>
-            </div>
-        </div>
-
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 project-info">
-                    <div class="paragraph py-4 w-80">
-                        <table class="center" style="width:73%">
-                            <tr>
-                              <th>Duration</th>
-                              <th>Role</th>
-                              <th>Team</th>
-                              <th>Tools</th>
-                            </tr>
-                            <tr>
-                              <td>May - August 2022 (12 weeks)</td>
-                              <td>Software Engineering Intern</td>
-                              <td>Nest Software Platform</td>
-                              <td>C++ • GitHub</td>
-                            </tr>
-                          </table>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section><br><br>
+<div class="col-lg-12 col-md-12 col-sm-12 top-img">
+    <picture>
+        <source media="(min-width: 1000px)" srcset="assets/G-lg.png">
+        <source media="(max-width: 576px)" srcset="assets/G-sm.png">
+        <img id="google" src="assets/G-md.png" alt="Google">
+    </picture>
+</div>
 
 <!-- ///////////////////////////////////////////////////////////////////////////
                     START SECTION 2 - THE PROJECT DETAILS 
 /////////////////////////////////////////////////////////////////////////////-->
-    <section class="project-area">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-4 col-md-4 py-5 title">
-                    <h3>Overview</h3>
-                </div>
-                <div class="col-lg-8 col-md-8 content">
-                    <div class="paragraph py-5 w-100">
-                        <p>
-                            During the summer of 2022, I had the opportunity to be a part of the Nest Software Platform Team at Google. 
-                            The team works on building features incorporated into a wide array of Nest products including
-                            cameras, doorbells, and Chromecast with Google TV. 
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-4 col-md-4 py-4 title">
-                    <h3>Projects</h3>
-                </div>
-                <div class="col-lg-8 col-md-8 content">
-                    <div class="paragraph py-4 w-100">
-                        <p>
-                            The project I was responsible for focused on the functionality of 
-                            live-view video conversion and display on an internal developer tool. In this refactor plan, I replaced
-                            the original approach, executing with system command, by integrating an open source library API.
-                            Before diving into the program, <span style="font-weight:700; color: rgb(63, 63, 63)">I conducted a thorough research on the library and the
-                            relevant internal codebase, drafted a design document, and reported findings and implementation plan to my hosts during meetings</span>.
-                        </p>
-                    </div>
-                    <div class="paragraph py-1 w-100">
-                        <p>
-                            Due to NDA restrictions, I am unable to show my work on this page.
-                            If you have any questions, please reach out to me at
-                            <a href="mailto:chihant@andrew.cmu.edu" target="_blank"><button type="button">chihant@andrew.cmu.edu</button></a>:)
-                        </p>
-                    </div>
-
-                    <div class="paragraph py-4 w-100">
-                        <p>
-                            To maximize my time at Google, I also practiced writing well-organized software tests, applying Google's
-                            testing framework by studying guides and examples. After completing the project, I worked on unit test writing 
-                            for the refactored program, and gained a deeper understanding of data and function types in C++ as well.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <br><br>
-
-            <div class="row">
-                <div class="col-lg-4 col-md-4 py-3 title">
-                    <h3>The Community</h3>
-                </div>
-                <div class="col-lg-8 col-md-8 content">
-                    <div class="paragraph py-3 w-100">
-                        <p>
-                            Apart from the project, I volunteered as an Intern Champion to <span style="font-weight:700; color: rgb(63, 63, 63)">assist the Intern Team in holding off-site 
-                            social events for the interns</span>.
-                            As one of the event organizers, I had the opportunity to interact with people directly and be involved in
-                            activities and official meetings outside of my project work. I truly enjoyed the process and this is undoubtedly
-                            one of the highlights of my internship ✨
-                        </p>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-4 col-md-4 col-sm-12 project-img">
-                            <div class="rounded float-left">
-                                <img class="main" src="assets/google/event2.jpg" alt="Intern Social Event">
-                                <p class="w-100">The first intern social event I hosted! 🎉</p>
-                                <!-- <img class="hover" src="assets/GPBO.png" alt="The Great Pittsburgh Baking Outlet"> -->
-                            </div>
-                         </div>
-                         <div class="col-lg-4 col-md-4 col-sm-12 project-img">
-                            <div class="rounded float-right">
-                                <img class="main" src="assets/google/team.jpg" alt="Intern Social Event">
-                                <p class="w-100">My hosts and interns who I became really close with 😆❤️</p>
-                            </div>
-                         </div>
-                    </div>
-                    
-                    <div class="paragraph py-0 w-80">
-                        <p>
-                            I was also able to build close relationhips with not only my hosts but people outside of our team through
-                            cross-team collaboration and entertainment. We spent our lunch breaks and Friday evenings playing foosball,
-                            chess, and music games together - just taking a break from work and getting to know each other a bit more 😉
-                            <!-- Through playing foosball and chess, which my hosts are really good at, 
-                            I got to build a tighter connection with not only other interns but my hosts and other full-time employees on the 
-                            Nest team. We spent our lunch break and Friday afternoons taking breaks from work and bonding, which created a 
-                            close community - what an honor to be involved in! -->
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="blankspace" style="padding: 1.5rem"></div>
-
-            <div class="row">
-                <div class="col-lg-4 col-md-4 py-4 title">
-                    <h3>Key Takeaways</h3>
-                </div>
-                <div class="col-lg-8 col-md-8 content">
-                    <div class="paragraph py-4 w-80">
-                        <!-- <q>There is no such thing as work-life balance. There is only your short, sacred list of priorities.</q> -->
-                        <p>
-                            This internship helped me improve my <span style="font-weight:700; color:#8489bd">algorithmic thinking and problem-solving skills</span>. When I encountered a technical or 
-                            logical problem, my hosts expected me to think through it myself and frame questions with context before asking. Hence, I 
-                            picked up the habit of documenting notes, self-studying online resources, and learning to ask "good" questions; this might 
-                            not be the shortest path to answers yet it allowed me to develop <span style="font-weight:700; color:#8489bd">work independence, and technical and communication skills</span> as I 
-                            progressed. I have also gained an insight into how engineering teams function and collaborate throughout the product design and development process in a large corporation.
-                            <!-- Writing code in a large codebase also fostered my tracing and debugging skills. -->
-                        </p>
-                    </div>
-                    <div class="paragraph py-0 w-80">
-                        <p>
-                            Finally, a huge thank you to the whole Nest team, especially my hosts, Jhih-Ming Huang and Dai-Yang Wu. 
-                            I am grateful to work with and have the support of these talented individuals. 
-                            I look forward to applying the skills I learned this summer to my future work!
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-lg-6 col-md-12 col-sm-12 float-lg-start float-md-start switch-btn">
-                <a href="work.html"><button type="button" class="btn btn-primary float-start">back</button></a>
-            </div>
-            <!-- <div class="col-lg-6 col-md-12 col-sm-12 float-lg-start float-md-end switch-btn">
-                <a href="gpbo-project.html"><button type="button" class="btn btn-success float-end">next project</button></a>
-            </div> -->
-        </div>
-
+<section class="project-details">
+    <div class="blankSpace" style="padding-top:4rem"></div>
         
-    </section>
+    <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-12 py-2 title">
+            <h3>Overview</h3>
+        </div>
+        <div class="col-lg-9 col-md-9 col-sm-12 py-2 content">
+            <div class="paragraph w-100">
+                <table>
+                    <tr>
+                        <th>Duration</th>
+                        <td>May - August 2022 (12 weeks)</td>
+                    </tr>
+                    <tr>
+                        <th>Role</th>
+                        <td>Student Training in Engineering Program Intern</td>
+                    </tr>
+                    <tr>
+                        <th>Team</th>
+                        <td>Nest Software Platform</td>
+                    </tr>
+                    <tr>
+                        <th>Tools</th>
+                        <td>C++ &nbsp;•&nbsp; GitHub</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="paragraph w-100">
+                <p>
+                    During the summer of 2022, I had the opportunity to be a part of the Nest Software Platform Team at Google. 
+                    The team works on building features incorporated into a wide array of Nest products including
+                    cameras, doorbells, and Chromecast with Google TV. 
+                </p>
+            </div>
+        </div> <!-- Close content -->
+    </div> <!-- Close row -->
 
-    <!-- Add space between two sections -->
-    <div class="blankspace" style="padding: 1.2rem"></div>
+    <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-12 py-2 title">
+            <h3>Projects</h3>
+        </div>
+        <div class="col-lg-9 col-md-9 col-sm-12 py-2 content">
+            <div class="paragraph w-100">
+                <p>
+                    The project I was responsible for focused on the functionality of 
+                    live-view video conversion and display on an internal developer tool. In this refactor plan, I replaced
+                    the original approach, executing with system command, by integrating an open source library API.
+                    Before diving into the program, <span style="font-weight:700; color: rgb(63, 63, 63)">I conducted a thorough research on the library and the
+                    relevant internal codebase, drafted a design document, and reported findings and implementation plan to my hosts during meetings</span>.
+                </p>
+            </div>
+            <div class="paragraph py-0 w-100">
+                <p>
+                    Due to NDA restrictions, I am unable to show my work on this page.
+                    If you have any questions, please reach out to me at
+                    <a href="mailto:chihant@andrew.cmu.edu" target="_blank"><button type="button">chihant@andrew.cmu.edu</button></a>:)
+                </p>
+            </div>
+            <div class="paragraph py-0 w-100">
+                <p>
+                    To maximize my time at Google, I also practiced writing well-organized software tests, applying Google's
+                    testing framework by studying guides and examples. After completing the project, I worked on unit test writing 
+                    for the refactored program, and gained a deeper understanding of data and function types in C++ as well.
+                </p>
+            </div>
+        </div> <!-- Close content -->
+    </div> <!-- Close row -->
 
-    <footer class="bottom-main">
-        <section class="about-area">
-            <br><br><br><br>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-5 col-md-12 getInTouch">
-                        <div class="dot3-1"><h3>Get in Touch</h3></div>
-                        <div class="dot3-2"><h3 class="about-text-sm">Get in Touch</h3></div>
+    <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-12 py-2 title">
+            <h3>The Community</h3>
+        </div>
+        <div class="col-lg-9 col-md-9 col-sm-12 py-2 content">
+            <div class="paragraph w-100">
+                <p>
+                    Apart from the project, I volunteered as an Intern Champion to <span style="font-weight:700; color: rgb(63, 63, 63)">assist the Intern Team in holding off-site 
+                    social events for the interns</span>.
+                    As one of the event organizers, I had the opportunity to interact with people directly and be involved in
+                    activities and official meetings outside of my project work. I truly enjoyed the process and this is undoubtedly
+                    one of the highlights of my internship ✨
+                </p>
+            </div>
+            <div class="row" id="img-row">
+                <div class="col-lg-5 col-md-5 col-sm-12 project-img">
+                    <div class="rounded float-left">
+                        <img class="main" src="assets/google/event2.jpg" alt="Intern Social Event">
+                        <p class="w-100">The first intern social event I hosted! 🎉</p>
                     </div>
-                    <div class="col-lg-5 col-md-12 col-sm-12 getInTouch-info">
-                        <h3 class="getInTouch-ThankYou">I'd love to chat more about myself and my work!</h3>
-                        <h3 class="getInTouch-reachMe">You can reach me at:</h3>
-                        <a href="mailto:chihant@andrew.cmu.edu" target="_blank"><button type="button"><ion-icon name="mail-outline"></ion-icon> chihant@andrew.cmu.edu</button></a>
-                        <a href="https://www.linkedin.com/in/joannetsai21/" target="_blank"><button type="button"><ion-icon name="logo-linkedin"></ion-icon> my LinkedIn</button></a>
-                        <h3 class="getInTouch-reachMe">and view my work at:
-                        <a href="https://github.com/joannetsaii/" target="_blank"><button type="button"><ion-icon name="logo-github"></ion-icon> my Github</button></a></h3>
-    
-                        <p class="copyrights">
-                            &copy; site from scratch by Joanne Tsai 2022<br/>
-                        </p>
+                 </div>
+                 <div class="col-lg-5 col-md-5 col-sm-12 project-img">
+                    <div class="rounded float-right">
+                        <img class="main" src="assets/google/team.jpg" alt="Intern Social Event">
+                        <p class="w-100">My hosts and interns who I became really close with 😆❤️</p>
                     </div>
-                </div>
-                <br>
-            </div><br>
-        </section>
-    </footer>
+                 </div>
+            </div>
+            <div class="paragraph py-0 w-100">
+                <p>
+                    I was also able to build close relationhips with not only my hosts but people outside of our team through
+                    cross-team collaboration and entertainment. We spent our lunch breaks and Friday evenings playing foosball,
+                    chess, and music games together - just taking a break from work and getting to know each other a bit more 😉
+                </p>
+            </div>
+        </div> <!-- Close content -->
+    </div> <!-- Close row -->
 
-    </main>
+    <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-12 py-2 title">
+            <h3>Key Takeaways</h3>
+        </div>
+        <div class="col-lg-9 col-md-9 col-sm-12 content">
+            <div class="paragraph py-2 w-100">
+                <p>
+                    This internship helped me improve my <span style="font-weight:700;">algorithmic thinking and problem-solving skills</span>. When I encountered a technical or 
+                    logical problem, my hosts expected me to think through it myself and frame questions with context before asking. Hence, I 
+                    picked up the habit of documenting notes, self-studying online resources, and learning to ask "good" questions; this might 
+                    not be the shortest path to answers yet it allowed me to develop <span style="font-weight:700;">work independence, and technical and communication skills</span> as I 
+                    progressed. I have also gained an insight into how engineering teams function and collaborate throughout the product design and development process in a large corporation.
+                    <!-- Writing code in a large codebase also fostered my tracing and debugging skills. -->
+                </p>
+            </div>
+            <div class="paragraph py-0 w-100">
+                <p>
+                    Finally, a huge thank you to the Nest team, especially my mentors, Jhih-Ming Huang and Dai-Yang Wu. 
+                    I am grateful to work with and have the support of these talented individuals. 
+                    I look forward to applying the skills I learned this summer to my future work!
+                </p>
+            </div>
+        </div> <!-- Close content -->
+    </div> <!-- Close row -->
 
-    <!-- Icons -->
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <div class="row" id="btn-row">
+        <div class="col-lg-6 col-md-6 col-sm-12 float-lg-start float-md-start float-sm-start">
+            <a href="gpbo-project.html"><button type="button" class="btn btn-success float-start"><i class="bi bi-caret-left-fill"></i> previous</button></a>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 float-lg-end float-md-end float-sm-start">
+            <a href="gpbo-project.html"><button type="button" class="btn btn-success float-end">next <i class="bi bi-caret-right-fill"></i></button></a>
+        </div>
+    </div>
+
+    <hr size="4px">  
+</section>
+
+<section class="contact-area">
+    <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12 py-0" id="email">
+            <a href="mailto:joannetsai21@gmail.com" target="_blank"><button type="button"><i class="bi bi-envelope-fill"></i>&nbsp;&nbsp;joannetsai21@gmail.com</button></a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 py-0" id="linkedin">
+            <a href="https://www.linkedin.com/in/joanne-tsai-2061/" target="_blank"><button type="button"><i class="bi bi-linkedin"></i>&nbsp;&nbsp;linkedIn</button></a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 py-0" id="github">
+            <a href="https://github.com/joannetsaii" target="_blank"><button type="button"><i class="bi bi-github"></i>&nbsp;&nbsp;gitHub</button></a>
+        </div>
+    </div> <!-- Close row -->
+
+    <div class="row">
+        <div class="col-12 copyrights">
+            &copy; site from scratch by Joanne Tsai 2022<br/>
+        </div>
+    </div>
+</section>
+
+<!-- Icons -->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     
 </body>
 </html>

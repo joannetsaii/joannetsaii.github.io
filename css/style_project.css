@@ -1,0 +1,163 @@
+.project-details {
+    margin: 0 15%;
+}
+
+.top-img img#google { /* project title */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 5;
+    position: relative;
+    background-color: #E2E7B3;
+    /* opacity: 0.9; */
+    padding: 3rem 0;
+    margin: 0;
+}
+
+.top-img #gpbo-img { 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 5;
+    position: relative;
+    background-color:#F4EDED;
+    padding: 3rem 0;
+    margin: 0;
+}
+
+/* @media screen and (max-width: 575.98px) {   
+    .top-img #gpbo-img {
+    	background-image: url("./assets/bakingIcons-sm.png");
+    } 
+}
+
+@media screen and (max-width: 767.98px) {   
+    .top-img #gpbo-img {
+    	background-image: url("./assets/bakingIcons-md.png");
+    } 
+} */
+
+.project-details table {
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.project-details table th {
+    text-align: left;
+    font: normal 600 0.9rem var(--poppins);
+}
+
+.project-details table td {
+    text-align: left;
+    font: normal 400 0.9rem var(--openSans);
+    padding-left: 2rem;
+}
+
+.project-details table tr {
+    height: 30px; /* row height */
+}
+
+.project-details .title h3 {
+    font: normal 400 1.5rem var(--poppins);
+}
+
+.project-details .content p {
+    font: normal 400 0.9rem var(--openSans);
+    line-height: 1.7;
+}
+
+.project-details .row { /* margin between each section paragraph */
+    margin-bottom: 10%;
+}
+
+#img-row { /* reduce the margin between pics and the next paragraph */
+    margin-bottom: 1%;
+}
+
+.content .project-img img.main {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.content .project-img p { /* image descriptions */
+    font: normal 400 0.8rem var(--poppins);
+    margin-top: 0.3rem;
+    line-height: 1.3;
+}
+
+/* List items */
+.content .paragraph h5 {
+    font: normal 400 1.2rem var(--poppins);
+}
+
+.content .paragraph ul {
+    font: normal 400 0.9rem var(--openSans);
+    line-height: 1.7;
+}
+
+/* Email link */
+.content .paragraph a button {
+    color:#1A1A1A;
+    background: transparent;
+    border: none;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+.content .paragraph a button:hover {
+    color:#1A1A1A;
+    background: transparent;
+    border: none;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+.content .paragraph a button:visited {
+    color:#1A1A1A;
+    background: transparent;
+    border: none;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+#btn-row {
+    margin-bottom: 0;
+}
+
+.project-details button.btn.btn-success,
+.project-details button.btn.btn-success:visited {
+    transition: transform .2s;
+    /* color: #5762c3; */
+    color: rgb(182, 182, 182);
+    font: normal 400 1rem var(--poppins);
+    border: none;
+    background-color: transparent;
+    /* background-color: rgb(253, 252, 252);
+    border: 1.5px solid #5762c3; */
+    border-radius: 8px;
+    opacity: 0.8;
+    padding: 0 0 1rem 0;
+}
+
+.project-details button.btn.btn-success:hover  {
+    transform: scale(1.05); 
+    transition: transform .2s;
+    color: var(--theme-green);
+    font: normal 400 1rem var(--poppins);
+    border: none;
+    background-color: transparent;
+    border-radius: 8px;
+    opacity: 0.8;
+    padding: 0 0 1rem 0;
+}
+
+ion-icon {
+    font-size: 20px;
+    padding-top: 25px;
+    color: #333;
+}
+
+/* Contact section */
+.contact-area {
+    margin: 0 15%;
+    padding: 0rem 0 5rem 0;
+    background: transparent;
+}

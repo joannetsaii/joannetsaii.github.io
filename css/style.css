@@ -1,16 +1,9 @@
 /* import fonts */
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400&family=Inter:wght@100;200;300;400&family=Montserrat:wght@100;200;300;400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600&display=swap');
+
 /* import css variables */
 @import  url(partials/_variables.css);
-/* font-family: 'Montserrat', sans-serif; */
-/* font-family: 'Inter', sans-serif; */
-/* font-family: 'Inconsolata', monospace; */
-/* font-family: 'Poppins', sans-serif; */
 
 body {
     animation: fadeIn ease 2s;
@@ -59,97 +52,135 @@ body {
 
 
 
-/******************************************************************************/
-/******************************** Footer Area *********************************/
-/******************************************************************************/
-
-@media (min-width: 400px) { /* Small device */
-    footer.footer-area {
-        padding: 3% 0;
-        background: #333333;
-        margin-top: 1rem;
-    }
-
-    footer.footer-area .social a > ion-icon {
-        font-size: 22px;
-        padding: 1rem;
-        color: #FFF;
-        transition: transform .2s;
-    }
-
-    footer.footer-area .social a:hover > ion-icon {
-        color: #FFF;
-        transform: scale(1.1); 
-    }
-
-    /* Navigation Bar */
-    .navbar {
-        opacity: 0.9;
-        margin-top: 0;
-    }
-
-    .navbar-brand {  /* joanne tsai */
-        padding: 0.5rem 1rem 0.5rem 6vw;
-        font-family: 'Outfit', sans-serif;
-        font-size: 22px;
-        font-weight: 300;
-        color: var(--primary-black);
-    }
-
-    .navbar-nav {
-        margin-right: 25%; /* distance between right border and last nav item */
-        font-family: 'Poppins', sans-serif;
-        font-size: 17px;
-        font-weight: 300;
-        color: var(--primary-black);
-    }
-
-    .nav-item { /* nav tabs */
-        padding: 0.9rem 0 0.5rem 2.8rem;
-    }
-
-    .nav-item .active {
-        text-decoration: underline;
-        text-underline-position: under;
-    }
-
+/* Navigation Bar */
+.header_area {
+    margin: 0 8%;
 }
-@media (min-width: 992px) { /* Large device */
-    footer.footer-area {
-        background: #595958;
-        margin-top: 3%;
-    }
 
-    /* Navigation Bar */
-    .navbar {
-        color: #FFF;
-    }
+.navbar-brand {  /* joanne tsai */
+    padding: 0.5rem 0 0.5rem 0;
+    font: normal 500 1.5rem var(--poppins);
+    color: var(--primary-black);
+}
 
-    .navbar-brand {  /* joanne tsai */
-        padding: 0.6rem 0 0.6rem 4.6%;
-        font-family: 'Outfit', sans-serif;
-        font-size: 1.5rem;
-        font-weight: 300;
-    }
+.nav-item { /* nav tabs */
+    padding: 0.9rem 0 0.5rem 2rem;
+    font: normal 300 1rem var(--poppins);
+}
 
-    .nav-item { /* nav tabs */
-        padding: 0.6rem 15% 0.5rem 0;
-    }
-
-    .navbar-nav {
-        margin-top: 0;
-        margin-right: 10%; /* distance between right border and last nav item */
-        font-family: 'Outfit', sans-serif;
-        font-size: 1.2rem;
-        font-weight: 200;
-    }
-
-    .nav-item .active {
-        text-decoration: underline;
-        text-underline-position: under;
-    }
-
+.nav-item .active {
+    text-decoration: underline;
+    text-underline-position: under;
 }
 
 
+/* Buttons */
+.view-btn button,
+.view-btn button:visited {
+    transition: transform .2s;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    background-color: var(--theme-green);
+    border: 2px solid var(--theme-green);
+    border-radius: 10px;
+    opacity: 0.8;
+    padding: 8px 16px 8px 16px;
+    margin-top: 0.5rem;
+    margin-right: 3rem; /* margin between buttons */
+}
 
+.view-btn button:hover {
+    /* transform: scale(1.05);  */
+    transition: transform .2s;
+    color: var(--theme-green);
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    background-color: rgb(253, 252, 252);
+    border: 2px solid var(--theme-green);
+    border-radius: 10px;
+    opacity: 0.8;
+    padding: 8px 16px 8px 16px;
+    margin-top: 0.5rem;
+    margin-right: 3rem; /* margin between buttons */
+}
+
+.copyrights {
+    text-align: right;
+    color: var(--light-gray);
+    margin-top: 3rem;
+    font: normal 300 1rem var(--poppins);
+}
+
+
+/* Contact Area */
+.contact-area {
+    margin: 0 0;
+    padding: 0rem 0 5rem 0;
+    background: transparent;
+}
+
+.contact-area .row a button {
+    transition: transform .2s;
+    border: none;
+    background: transparent;
+    font: normal 400 1rem var(--poppins);
+    color: #333;
+    padding: 1rem 0;
+}
+
+.contact-area .row a button:hover {
+    transform: scale(1.05); 
+    transition: transform .2s;
+    border: none;
+    background: transparent;
+    font: normal 400 1rem var(--poppins);
+    color: var(--theme-green);
+    padding: 1rem 0;
+}
+
+.contact-area table {
+    margin: 0 15%;
+}
+
+hr {
+        margin: 0;
+        padding:0;
+        color: #333;
+        opacity: 1;
+        width: 100%;
+}
+
+
+/* Small devices */
+@media screen and (max-width: 769.98px) {
+    /* Contact Area */
+    #email {
+        text-align: left;
+    }
+
+    #linkedin {
+        text-align: left;
+    }
+
+    #github {
+        text-align: left;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+/* Large devices (desktops, 992px and up) */
+/* X-Large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 769.99px) {
+    #email {
+        text-align: left;
+    }
+
+    #linkedin {
+        text-align: center;
+    }
+
+    #github {
+        text-align: right;
+    }
+}

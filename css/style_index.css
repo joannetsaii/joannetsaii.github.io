@@ -1,662 +1,137 @@
-/* .site-main > .site-banner .intro {
-    margin: 26% 0 0 0;
-} */
-
-@media (max-width: 767.98px) { /* Small device */
-    .site-main > .site-banner .site-intro {
-      margin: 13% 0 0 0;
-    }  
-    .card-title { /* hello title */
-        width: 24ch;
-        animation: typing 2.5s steps(25), blink .7s step-end infinite alternate;
-        white-space: nowrap;
-        overflow: hidden;
-        border-right: 3px solid;
-    }
-    @keyframes typing { from { width: 0 } }
-    @keyframes blink { 50% { border-color: transparent } }
-
-    .site-intro h5 {
-        font-family: 'Poppins', sans-serif;
-        color: #869d7b; 
-        font-size: 1.4rem;
-        text-align: center;
-        margin: auto auto 3rem auto;
-    }
-
-    /* .site-main > .site-banner .intro h5 { /* hello title */
-        /* display: none;
-    } */ 
-
-    .site-main > .site-banner .site-intro p { /* intro text in the box */
-        font-family: 'Poppins', sans-serif;
-        color: var(--primary-black);
-        font-weight: 300;
-        font-size: 0.9rem;
-        line-height: 28px;
-        text-align: left;
-        margin: 3rem 5% 9% 5%;
-    }
-
-    .site-main .site-banner .banner-image > img {
-        margin: 2.8rem auto 0 auto;
-        display: block;
-        width: 70%;
-        border-radius: 3%;
-    }
-
-    /* headings in bubbles */
-    .about-area .about-heading h3 {
-        text-align: center;
-        margin: 0 auto 0 auto;
-        position: relative;
-        color: var(--primary-black);
-        font-family: 'Poppins', sans-serif;
-        font-weight: 200;
-        font-size: 7vw;
-    }
-    
-    .about-info {
-        margin: 1.7rem 1.5vw 0 1.5vw;
-        font-size: 0.9rem;
-        font-weight: 300;
-        font-family: 'Poppins', sans-serif;
-    }
-
-    .about-area .about-experience .hyperlink {
-        text-decoration: none;
-        color: #333333;
-        font-weight: 300;
-    }
-    
-    .about-area .about-experience .hyperlink:hover {
-        color: #333333;
-        font-weight: 500;
-    }
-    
-    .about-area .about-experience .hyperlink:visited {
-        text-decoration: none;
-        font-weight: 500;
-        color: #333333;
-    }
-    
-    .about-area .about-experience .hyperlink:links {
-        text-decoration: none;
-        font-weight: 500;
-        color: #333333;
-    }
-    
-    .site-intro .card-text a {
-        text-decoration: underline; 
-        text-underline-position: under;
-        color: #8489bd;
-        font-weight: 500;
-    }
-    .site-intro .card-text a:hover {
-        text-decoration: underline; 
-        text-underline-position: under;
-        color: #8489bd;
-        font-weight: 500;
-    }
-    .site-intro .card-text a:visited {
-        text-decoration: underline; 
-        text-underline-position: under;
-        color: #8489bd;
-        font-weight: 500;
-    }
-    .site-intro .card-text a:links {
-        text-decoration: underline; 
-        text-underline-position: under;
-        color: #8489bd;
-        font-weight: 500;
-    }
-    
-    /*  table */
-    .about-info .table-sm {
-        margin: 0 auto 0 auto;
-    }
-    
-    .about-info .table-sm, tr, td {
-        border: none;
-    }
-
-    .about-info .table {
-        display: none;
-    }
-    
-    /* Experience section text */
-    .about-area .about-experience-heading { /* Currently and Previously */
-        font-weight: 700;
-        font-family: 'Poppins', sans-serif;
-        color: #b5b2c5;
-    }
-
-
-    /********************** Accordions **********************/
-    .accordion {
-        display: block;
-        margin: auto 5% 0 5%;
-    }
-    .about-area .about-info .accordion-item {
-        font-family: 'Poppins', sans-serif;
-        color: var(--primary-black);
-        background: rgb(252, 255, 250);
-        font-size: 1.2rem;
-        border-radius: 10px;
-        margin-bottom: 6px;
-    }
-    
-    .about-area .about-info .accordion-button.collapsed {
-        color: #7b81bb;
-        background: #FFF;
-        opacity: 0.8;
-        border-radius: 10px;
-        font-weight: 400; /* course name title */
-    }
-    
-    .about-area .about-info .accordion-button:not(.collapsed) {
-        color: #7b81bb;
-        border: 2.5px solid #7b81bb;
-        opacity: 0.8;
-        font-weight: 500;
-        border-radius: 10px;
-        background: #FFF;
-    }
-    
-    .about-area .about-info .accordion-button:not(.collapsed)::after {
-        filter: brightness(0%) invert(100%);
-    }
-    
-    .about-area .about-info .accordion-button:focus {
-        box-shadow: inherit;
-    }
-    
-    .about-area .about-info .accordion-body {
-        background: #FFF; /* content background */
-        border-radius: 10px;
-        font-size: 0.9rem;
-        line-height: 1.6;
-        font-family: 'Poppins', sans-serif;
-    }
-
-    /**************************************************************************/
-    /***************************** Get in Touch Area **************************/
-    /**************************************************************************/
-    .about-area .getInTouch .dot3-1 .about-text {
-        display: none;
-    }
-
-    .about-area .getInTouch .dot3-2 .about-text-sm {
-        text-align: center;
-        margin: 0 auto 2rem auto;
-        position: relative;
-        color: var(--primary-black);
-        font-family: 'Poppins', sans-serif;
-        font-weight: 200;
-        font-size: 7vw;
-    }
-
-    /* Contact Information Button */
-    .bottom-main .about-area .getInTouch-info button {
-        background: transparent;
-        border: none;
-        font-family: 'Poppins', sans-serif;
-        font-size: 0.9rem;
-        font-weight: 300;
-        margin: 2% auto 0 6%;
-        text-decoration: underline;
-        text-underline-position: under;
-        color: #869d7b;
-    }
-
-    .bottom-main .about-area .getInTouch-info button:hover {
-        background: transparent;
-        border: none;
-        font-family: 'Poppins', sans-serif;
-        font-size: 0.9rem;
-        font-weight: 300;
-        margin: 2% auto 0 6%;
-        text-decoration: underline;
-        text-underline-position: under;
-        color: #869d7b;
-        
-    }
-
-    /* Text Line 1 */
-    .bottom-main .about-area .getInTouch-info .getInTouch-ThankYou {
-        color: var(--primary-black);
-        font-family: 'Poppins', sans-serif;
-        font-size: 0.9rem;
-        font-weight: 300;
-        margin: 0 5% 0 8%;
-        display: block;
-    }
-
-    /* Text Line 2 */
-    .bottom-main .about-area .getInTouch-info .getInTouch-reachMe {
-        color: var(--primary-black);
-        font-family: 'Poppins', sans-serif;
-        font-size: 0.9rem;
-        font-weight: 300;
-        margin: 2% 5% 0 8%;
-    }
-
-    .dot3-1 {
-        display: none;
-    }
-
-    .bottom-main .about-area .getInTouch-info .copyrights {
-        color: rgb(107, 107, 107);
-        font-family: 'Outfit', sans-serif;
-        opacity: 0.9;
-        font-size: 1rem;
-        font-weight: 200;
-        margin: 15% 5% auto 5%;
-        text-align: center;
-    }
+.site-main {
+    margin: 0 15%;
 }
 
-@media (min-width: 768px) and (max-width: 969.98px) { /* Medium device */
-    .site-main > .site-banner .site-intro h5 {
-        font-family: 'Poppins', sans-serif;
-        color: #61bcad;
-        padding-left: 2rem;
-        margin: 0 10vw 0 2.5vw;
-        font-size: 2rem;
-    }
-    .site-main > .site-banner .site-intro p { /* intro text in the box */
-        font-family: 'Poppins', sans-serif;
-        color: var(--primary-black);
-        font-weight: 300;
-        margin: 2rem 10vw 0 2.5vw;
-        font-size: 0.9rem;
-        line-height: 28px;
-    }
+.site-main > .site-intro {
+    margin-top: 13%;
+    margin-bottom: 15%;
 }
 
-@media (min-width: 970px) { /* Large device */
-    .site-main > .site-banner .site-intro h5 {
-        font-family: 'Outfit', sans-serif;
-        color: #869d7b; 
-        font-size: 1.8rem;
-        margin: 13% auto 2% 3.9%;
-        width: 20ch;
-        animation: typing 2s steps(22), blink .7s step-end infinite alternate;
-        white-space: nowrap;
-        overflow: hidden;
-        border-right: 3px solid;
-    }
+.site-main > .site-intro .top-intro h5 {
+    font: normal 500 1.5rem var(--poppins);
+    color: var(--theme-green); 
+    margin-left: 2%; /* margin from pfp */
+}
 
-    .site-main > .site-banner .site-intro p { /* self-intro text */
-        font-family: 'Poppins', sans-serif;
-        color: var(--primary-black);
-        font-weight: 300;
-        margin: 2rem 11.5% 0 4%;
-        text-align: left;
-        font-size: 0.9rem;
-        line-height: 28px;
-        position: relative;
-    }
+.site-main > .site-intro .top-intro p { /* top self-intro text */
+    font: normal 300 0.9rem var(--poppins);
+    color: var(--primary-black);
+    margin-left: 2%; /* margin from pfp */
+    text-align: left;
+    line-height: 1.7;
+}
 
-    /* .site-intro-sm {
-        display: none;
-    } */
-    
-    @keyframes typing { from { width: 0 } }
-    @keyframes blink { 50% { border-color: transparent } }
+.site-main > .site-intro .top-intro a:link,
+.site-main > .site-intro .top-intro a:visited { /* top self-intro text */
+    color: var(--primary-black);
+    line-height: 1.7;
+    text-decoration: none;
+}
 
-    .site-main .site-banner .banner-image > img {
-        margin: 30% 0 0 14.5%;
-        width: 20rem;
-        border-radius: 50%;
-        animation-name: floating;
-        animation-duration: 4s;
-        animation-iteration-count: infinite;
-        animation-timing-function: ease-in-out;
-        filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.2));
-    }
+.site-main > .site-intro .top-intro a:hover { /* top self-intro text */
+    color: var(--theme-green);
+    text-decoration: none;
+}
 
-    .dot1 {
-        width: 250px;
-        height: 250px;
-        background-image: linear-gradient(to left, #5965cf , #8f95c7);
-        border-radius: 50%;
-        margin-left: 33%;
-        display: inline-block;
-        opacity: 0.9;
-        position: relative;
-        animation-name: floating;
-        animation-duration: 3s;
-        animation-iteration-count: infinite;
-        animation-timing-function: ease-in-out;
-        filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.2));
-    }
-    
-    .dot2 {
-        width: 250px;
-        height: 250px;
-        background-image: linear-gradient(to left, #acc896 , #bddba6);
-        border-radius: 50%;
-        margin-left: 33%;
-        display: inline-block;
-        opacity: 0.9;
-        position: relative;
-        animation-name: floating;
-        animation-duration: 3s;
-        animation-iteration-count: infinite;
-        animation-timing-function: ease-in-out;
-        filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.2));
-    }
-
-    /* headings in bubbles */
-    .about-area .about-heading h3 {
-        margin-left: 37%;
-        margin-top: 43%;
-        margin-bottom: 0;
-        position: absolute;
-        color: #FFF;
-        font-family: 'Poppins', sans-serif;
-        font-weight: 400;
-        font-size: 1.6rem;
-    }
-
-    .about-area .about-heading h3::after{
-        content: " ";
-        height: 1.5px;
-        width: 10.5vw;
-        background: #FFF;
-        display: inline-block;
-        margin-left: 5%; /* not align with headings */
-        transform: translateY(-7.5px);
-    }
-
-    .about-area .about-experience .hyperlink {
-        text-decoration: none;
-        color: #333333;
-        font-weight: 300;
-    }
-    
-    .about-area .about-experience .hyperlink:hover {
-        color: #333333;
-        font-weight: 500;
-    }
-    
-    .about-area .about-experience .hyperlink:visited {
-        text-decoration: none;
-        font-weight: 500;
-        color: #333333;
-    }
-    
-    .about-area .about-experience .hyperlink:links {
-        text-decoration: none;
-        font-weight: 500;
-        color: #333333;
-    }
-
-    .site-intro .card-text a {
-        text-decoration: none;
-        color: #8489bd;
-        font-weight: 500;
-    }
-    .site-intro .card-text a:hover {
-        color: #8489bd;
-        font-weight: 500;
-    }
-    
-    .site-intro .card-text a:visited {
-        text-decoration: none;
-        font-weight: 500;
-        color: #8489bd;
-    }
-    
-    .site-intro .card-text a:links {
-        text-decoration: none;
-        font-weight: 500;
-        color: #8489bd;
-    }
-    
-    /* Experience table */
-    .about-info .table {
-        margin-top: 6%;
-    }
-    
-    .about-info .table, tr, td {
-        border: none;
-    }
-
-    .about-info .table-sm {
-        display: none;
-    }
-    
-    /* Experience section text */
-    .about-area .about-experience {  /* experience table text */
-        margin: 0;
-        font-size: 0.95rem;
-        font-family: 'Poppins', sans-serif;
-        transition: transform .2s;
-    }
-
-    .about-area .about-experience-heading {
-        margin: 0;
-        font-size: 1rem;
-        font-weight: 700;
-        font-family: 'Poppins', sans-serif;
-        transition: transform .2s;
-        color: #b5b2c5;
-    }
-
-    .about-area .about-coursework h3 {
-        margin: 43% 0 0 20%;
-        position: absolute;
-        color: #FFF;
-        font-family: 'Poppins', sans-serif;
-        font-weight: 400;
-        font-size: 1.6rem;
-    }
-    
-    .about-area .about-coursework h3::after{
-        content: " ";
-        height: 1.5px;
-        width: 11.2vw;
-        background: #FFF;
-        display: inline-block;
-        margin-left: 5%; /* not align with headings */
-        transform: translateY(-7.5px);
-    }
-
-    .about-area .about-info .accordion {
-        margin-top: 0;
-    }
-    
-    .about-area .about-info .accordion-item {
-        font-family: 'Poppins', sans-serif;
-        color: var(--primary-black);
-        background: rgb(252, 255, 250);
-        font-size: 1.2rem;
-        border-radius: 10px;
-        margin-bottom: 6px;
-    }
-    
-    .about-area .about-info .accordion-button.collapsed {
-        color: #7b81bb;
-        background: #FFF;
-        opacity: 0.8;
-        border-radius: 10px;
-        font-weight: 400; /* course name title */
-    }
-    
-    .about-area .about-info .accordion-button:not(.collapsed) {
-        color: #7b81bb;
-        border: 2.5px solid #7b81bb;
-        opacity: 0.8;
-        font-weight: 500;
-        border-radius: 10px;
-        background: #FFF;
-    }
-    
-    .about-area .about-info .accordion-button:not(.collapsed)::after {
-        filter: brightness(0%) invert(100%);
-    }
-    
-    .about-area .about-info .accordion-button:focus {
-        box-shadow: inherit;
-    }
-    
-    .about-area .about-info .accordion-body {
-        background: #FFF; /* content background */
-        border-radius: 10px;
-        font-size: 0.8rem;
-        font-family: 'Poppins', sans-serif;
-    }
-
-    /**************************************************************************/
-    /***************************** Get in Touch Area **************************/
-    /**************************************************************************/
-    .bottom-main .about-area {
-        background: #393b3f;
-        margin-top: 3%;
-    }
-
-    .bottom-main .about-area .getInTouch .dot3-1 {
-        width: 250px;
-        height: 250px;
-        background-image: linear-gradient(to left, #fbd77a , #e5cf9b);
-        border-radius: 50%;
-        margin-left: 33%;
-        display: inline-block;
-        opacity: 0.9;
-        position: relative;
-        animation-name: floating;
-        animation-duration: 3s;
-        animation-iteration-count: infinite;
-        animation-timing-function: ease-in-out;
-        filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.2));
-    }
-
-    .about-area .getInTouch .dot3-2 {
-        display: None;
-    }
-    .about-area .getInTouch .dot3-2 .about-text-sm {
-        display: none;
-    }
-
-    .bottom-main .about-area .getInTouch .dot3-1 h3 {
-        margin-left: 37%;
-        margin-top: 36%;
-        margin-bottom: 0;
-        position: absolute;
-        color: #393b3f;
-        font-family: 'Poppins', sans-serif;
-        font-weight: 500;
-        font-size: 1.6rem;
-    }
-
-    .bottom-main .about-area .getInTouch .dot3-1 h3::after{
-        content: " ";
-        height: 1.5px;
-        width: 10.5vw;
-        background: #393b3f;
-        display: inline-block;
-        margin-left: 5%; /* not align with headings */
-        transform: translateY(-12.5px);
-    }
-
-    /* Contact Information Button */
-    .bottom-main .about-area .getInTouch-info button {
-        background: transparent;
-        transition: transform .2s;
-        color: #FFF;
-        border: 1px solid #AAB3FF;
-        border-radius: 50px;
-        padding: 15px 30px 15px 30px;
-        font-family: 'Poppins', sans-serif;
-        font-weight: 300;
-        font-size: 0.9rem;
-        margin: 0 1% 1% 5%;
-    }
-
-    .bottom-main .about-area .getInTouch-info button:hover {
-        transform: scale(1.05); 
-        background: transparent;
-        transition: transform .2s;
-        color: #FFF;
-        border: 1px solid #AAB3FF;
-        border-radius: 50px;
-        padding: 15px 30px 15px 30px;
-        font-family: 'Poppins', sans-serif;
-        font-weight: 300;
-        font-size: 0.9rem;
-        margin: 0 1% 1% 5%;
-    }
-
-    /* Text Line 1 */
-
-    .bottom-main .about-area .getInTouch-info .getInTouch-ThankYou {
-        color: #FFF;
-        font-family: 'Poppins', sans-serif;
-        font-size: 1rem;
-        font-weight: 200;
-        margin: 0 auto 0 5%;
-        display: block;
-    }
-
-    /* Text Line 2 */
-    .bottom-main .about-area .getInTouch-info .getInTouch-reachMe {
-        color: #FFF;
-        font-family: 'Poppins', sans-serif;
-        font-size: 1rem;
-        font-weight: 200;
-        margin: 2.8% auto 3% 5%;
-        display: block;
-    }
-
-    .bottom-main .about-area .getInTouch-info .copyrights {
-        color: rgb(197, 197, 197);
-        font-family: 'Outfit', sans-serif;
-        opacity: 0.9;
-        font-size: 1rem;
-        font-weight: 200;
-        margin-top: 5%;
-        margin-bottom: 2%;
-        margin-left: 5%;
-    }
-
-
-    /* down-pointing arrow */
-    .site-main ion-icon {
-        position: relative;
-        color: #8a8989;
-        opacity: 0.9;
-        font-size: 3rem;
-        margin-top: 11%;
-        transition: transform .2s;
-    }
-
-    .site-main ion-icon:hover {
-        position: relative;
-        color: #787777;
-        opacity: 0.9;
-        font-size: 3rem;
-        margin-top: 11%;
-        transform: scale(1.1);
-    }
-
-    .site-main ion-icon:visited {
-        position: relative;
-        color: #8a8989;
-        opacity: 0.9;
-        font-size: 3rem;
-        margin-top: 11%;
-    }
-
-    .site-main ion-icon:links {
-        position: relative;
-        color: #8a8989;
-        opacity: 0.9;
-        font-size: 3rem;
-        margin-top: 11%;
-    }
-
+.site-main > .site-intro .banner-img > img {
+    margin-right: 2rem;
+    width: 90%;
+    border-radius: 50%;
+    filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.2));
 }
 
 
+/* Experience Area */
+.site-main > .experience-area {
+    margin-bottom: 12%;
+}
+
+.experience-area table {
+    margin-left: 1%;
+    border: none;
+    border-color: transparent;
+}
+
+.experience-area table a {
+    font: normal 300 0.9rem var(--poppins);
+    color: var(--primary-black);
+}
+
+.experience-area table .row-heading {
+    font: normal 500 0.9rem var(--poppins);
+    color: var(--light-gray);
+}
+
+.experience-area table tr td {
+    font: normal 300 0.9rem var(--poppins);
+    color: var(--primary-black);
+}
+
+.experience-area table a:visited,
+.experience-area table a:link { /* hyperlinks in table */
+    font: normal 300 0.9rem var(--poppins);
+    color: var(--primary-black);
+    text-decoration: none;
+}
+
+.experience-area table a:hover { /* hyperlinks in table */
+    color: var(--theme-green);
+}
+
+.experience-area .title,
+.coursework-area .title {
+    font: normal 400 1.5rem var(--poppins);
+    color: var(--primary-black);
+    padding-bottom: 5%;
+}
+
+
+/* Coursework Area */
+.site-main > .coursework-area {
+    margin-bottom: 15%;
+}
+
+/* accordion */
+.accordion {
+    display: block;
+    margin-left: 2%;
+}
+
+.coursework-area .content .accordion-item {
+    font: normal 300 0.9rem var(--poppins);
+    color: var(--primary-black);
+    background: rgb(252, 255, 250);
+    border-radius: 10px;
+    margin-bottom: 6px;
+}
+
+.coursework-area .content .accordion-button.collapsed { /* course titles */
+    color: var(--theme-green);
+    background: #FFF;
+    border-radius: 10px;
+    font-weight: 400;
+    font: normal 500 0.9rem var(--poppins);
+}
+
+.coursework-area .content .accordion-button:not(.collapsed) {
+    color: var(--theme-green);
+    border: 2px solid var(--theme-green);
+    border-radius: 10px;
+    background: #FFF;
+    font: normal 500 0.9rem var(--poppins);
+}
+
+.coursework-area .content .accordion-button:not(.collapsed)::after {
+    filter: brightness(0%) invert(100%);
+}
+
+.coursework-area .content .accordion-button:focus {
+    box-shadow: inherit;
+}
+
+.coursework-area .content .accordion-body {
+    background: #FFF; /* content background */
+    font: normal 300 0.9rem var(--poppins);
+    border-radius: 10px;
+    line-height: 1.6;
+}

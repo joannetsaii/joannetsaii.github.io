@@ -1,439 +1,63 @@
-.site-work { /* Background */
-    background-color: #FFF;
-}
-
-@media (max-width: 767.98px) { /* Small device */
-    .grid { /* distance between grid and the page borders */
-        margin-right: 5%;
-        margin-left: 5%;
-    }
-
-    .the-project .img {
-        margin: 2rem 0 0 0;
-    }
-    .the-project .img-1 {  /* the first image */
-        margin: 6% 0 0 0;
-    }
-
-    .site-work .project-area .row .the-project .description {
-        font-family: 'Poppins', sans-serif;
-        font-weight: 300;
-        font-size: 0.9rem;
-        line-height: 1.7;
-        margin-right: 19%;
-    }
-    .site-work .project-area .row .the-project .img img.main {
-        position: absolute;
-        width: 70%;
-        height: auto;
-        display: block;
-        margin: 0 auto 5rem auto;
-    }
-    .site-work .project-area .row .the-project .img img.hover {
-        position: absolute;
-        object-fit: contain;
-        opacity: 0;
-        transition: opacity .5s;
-        width: 70%;
-        height: auto;
-        display: block;
-        margin: 0 auto 5rem auto;
-    }
-    .site-work .project-area .row .the-project .img:hover img.hover {
-        opacity: 1;
-    }
-
-    .site-work .project-area .row .the-project > .title h4 {
-        font-family: 'Outfit', sans-serif;
-        color: var(--primary-black);
-        font-size: 1.7rem;
-        margin: 18rem auto 1rem 0;
-    }
-
-    .site-work .project-area .row .the-project > .skills p {
-        font-family: 'Open Sans', sans-serif;
-        color: #8f8f8f;
-        font-size: 1rem;
-        font-style: italic;
-    }
-
-    .site-work .project-area .grid .the-project .img .background {
-        display: block;
-        margin: 0 auto 0 auto;
-        width: 100%;
-        background: #555;
-    }
-
-    .view-btn button {
-        transition: transform .2s;
-        color: #5762c3;
-        font-family: 'Poppins', sans-serif;
-        font-size: 0.9rem;
-        background-color: rgb(253, 252, 252);
-        border: 2px solid #5762c3;
-        border-radius: 8px;
-        opacity: 0.8;
-        padding: 6px 18px 6px 18px;
-        margin: 1.5rem 1.5rem auto auto;
-    }
-    
-    .view-btn button:hover {
-        transition: transform .2s;
-        color: rgb(253, 252, 252);
-        font-family: 'Poppins', sans-serif;
-        font-size: 0.9rem;
-        background-color: #5762c3;
-        border: 2px solid #5762c3;
-        border-radius: 8px;
-        opacity: 0.8;
-        padding: 6px 18px 6px 18px;
-        margin: 1.5rem 1.5rem auto auto;
-    }
-
-    .view-btn button:visited {
-        transition: transform .2s;
-        color: #5762c3;
-        font-family: 'Poppins', sans-serif;
-        font-size: 0.9rem;
-        background-color: rgb(253, 252, 252);
-        border: 2px solid #5762c3;
-        border-radius: 8px;
-        opacity: 0.8;
-        padding: 6px 18px 6px 18px;
-        margin: 1.5rem 1.5rem auto auto;
-    }
-
-    .view-btn button:links {
-        transition: transform .2s;
-        color: #5762c3;
-        font-family: 'Poppins', sans-serif;
-        font-size: 0.9rem;
-        background-color: rgb(253, 252, 252);
-        border: 2px solid #5762c3;
-        border-radius: 8px;
-        opacity: 0.8;
-        padding: 6px 18px 6px 18px;
-        margin: 1.5rem 1.5rem auto auto;
-    }
-
-    /**************************************************************************/
-    /***************************** Get in Touch Area **************************/
-    /**************************************************************************/
-    .about-area .getInTouch .dot3-1 .about-text {
-        display: none;
-    }
-
-    .about-area .getInTouch .dot3-2 .about-text-sm {
-        text-align: center;
-        margin: 0 auto 2rem auto;
-        position: relative;
-        color: var(--primary-black);
-        font-family: 'Poppins', sans-serif;
-        font-weight: 200;
-        font-size: 7vw;
-    }
-
-    /* Contact Information Button */
-    .bottom-main .about-area .getInTouch-info button {
-        background: transparent;
-        border: none;
-        font-family: 'Poppins', sans-serif;
-        font-size: 0.9rem;
-        font-weight: 300;
-        margin: 2% auto 0 3%;
-        text-decoration: underline;
-        text-underline-position: under;
-        color: #869d7b;
-    }
-
-    .bottom-main .about-area .getInTouch-info button:hover {
-        background: transparent;
-        border: none;
-        font-family: 'Poppins', sans-serif;
-        font-size: 0.9rem;
-        font-weight: 300;
-        margin: 2% auto 0 3%;
-        text-decoration: underline;
-        text-underline-position: under;
-        color: #869d7b;
-    }
-
-    /* Text Line 1 */
-    .bottom-main .about-area .getInTouch-info .getInTouch-ThankYou {
-        color: var(--primary-black);
-        font-family: 'Poppins', sans-serif;
-        font-size: 0.9rem;
-        font-weight: 300;
-        margin: 0 5% 0 5%;
-    }
-
-    /* Text Line 2 */
-    .bottom-main .about-area .getInTouch-info .getInTouch-reachMe {
-        color: var(--primary-black);
-        font-family: 'Poppins', sans-serif;
-        font-size: 0.9rem;
-        font-weight: 300;
-        margin: 2% 5% 0 5%;
-    }
-
-    /* Get in Touch title */
-    .site-main .getInTouch-info h3 {
-        margin: 0 0 0 2.5vw;
-        position: relative;
-        color: #61bcad;
-        font-family: 'Poppins', sans-serif;
-        font-weight: 600;
-        font-size: 7vw;
-    }
-
-    .dot3-1 {
-        display: none;
-    }
-
-    .bottom-main .about-area .getInTouch-info .copyrights {
-        color: rgb(107, 107, 107);
-        font-family: 'Outfit', sans-serif;
-        opacity: 0.9;
-        font-size: 1rem;
-        font-weight: 200;
-        margin: 15% 5% auto 5%;
-        text-align: center;
-    }
-}
-
-/* @media (min-width: 768px) and (max-width: 969.98px) {
-} */
-
-@media (min-width: 768px) { /* Large device */
-    .grid { /* distance between grid and the page borders */
-        margin-right: 9.5%;
-        margin-left: 9.5%;
-    }
-    .the-project {
-        margin-top: 10%;
-    }
-    .site-work .project-area .row .the-project .description {
-        font-family: 'Poppins', sans-serif;
-        font-weight: 300;
-        font-size: 0.9rem;
-        line-height: 1.7;
-        margin-right: 17%;
-    }
-    .site-work .project-area .row .the-project .img img.main {
-        position: absolute;
-        width: 22%;
-        height: auto;
-        margin: 0.2rem auto 5rem 10%;
-    }
-    .site-work .project-area .row .the-project .img img.hover {
-        position: absolute;
-        object-fit: contain;
-        opacity: 0;
-        transition: opacity .5s;
-        width: 22%;
-        height: auto;
-        margin: 0.2rem auto 5rem 10%;
-    }
-    .site-work .project-area .row .the-project .img:hover img.hover {
-        opacity: 1;
-    }
-
-    .site-work .project-area .row .the-project > .title h4 {
-        font-family: 'Outfit', sans-serif;
-        color: var(--primary-black);
-        font-size: 1.7rem;
-        margin: 0 auto 1rem 0;
-    }
-
-    .site-work .project-area .row .the-project > .skills p {
-        font-family: 'Open Sans', sans-serif;
-        color: #8f8f8f;
-        font-size: 1rem;
-        font-style: italic;
-    }
-
-/******************************************************************************/
-/****************************** Get in Touch Area *****************************/
-/******************************************************************************/
-    /* Get in Touch text */
-    .bottom-main .about-area {
-        background: #393b3f;
-        margin-top: 3%;
-    }
-
-    .bottom-main .about-area .getInTouch .dot3-1 {
-        width: 250px;
-        height: 250px;
-        background-image: linear-gradient(to left, #fbd77a , #e5cf9b);
-        border-radius: 50%;
-        margin-left: 33%;
-        display: inline-block;
-        opacity: 0.9;
-        position: relative;
-        animation-name: floating;
-        animation-duration: 3s;
-        animation-iteration-count: infinite;
-        animation-timing-function: ease-in-out;
-        filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.2));
-    }
-
-    .about-area .getInTouch .dot3-2 {
-        display: None;
-    }
-    .about-area .getInTouch .dot3-2 .about-text-sm {
-        display: none;
-    }
-
-    .bottom-main .about-area .getInTouch .dot3-1 h3 {
-        margin-left: 37%;
-        margin-top: 36%;
-        margin-bottom: 0;
-        position: absolute;
-        color: #393b3f;
-        font-family: 'Poppins', sans-serif;
-        font-weight: 500;
-        font-size: 1.6rem;
-    }
-
-    .bottom-main .about-area .getInTouch .dot3-1 h3::after{
-        content: " ";
-        height: 1.5px;
-        width: 10.5vw;
-        background: #393b3f;
-        display: inline-block;
-        margin-left: 5%; /* not align with headings */
-        transform: translateY(-12.5px);
-    }
-
-    /* Contact Information Button */
-    .bottom-main .about-area .getInTouch-info button {
-        background: transparent;
-        transition: transform .2s;
-        color: #FFF;
-        border: 1px solid #AAB3FF;
-        border-radius: 50px;
-        padding: 15px 30px 15px 30px;
-        font-family: 'Poppins', sans-serif;
-        font-weight: 300;
-        font-size: 0.9rem;
-        margin: 0 1% 1% 5%;
-    }
-
-    .bottom-main .about-area .getInTouch-info button:hover {
-        transform: scale(1.05); 
-        background: transparent;
-        transition: transform .2s;
-        color: #FFF;
-        border: 1px solid #AAB3FF;
-        border-radius: 50px;
-        padding: 15px 30px 15px 30px;
-        font-family: 'Poppins', sans-serif;
-        font-weight: 300;
-        font-size: 0.9rem;
-        margin: 0 1% 1% 5%;
-    }
-
-    /* Text Line 1 */
-
-    .bottom-main .about-area .getInTouch-info .getInTouch-ThankYou {
-        color: #FFF;
-        font-family: 'Poppins', sans-serif;
-        font-size: 1rem;
-        font-weight: 200;
-        margin: 0 1% 0 5%;
-    }
-
-    /* Text Line 2 */
-    .bottom-main .about-area .getInTouch-info .getInTouch-reachMe {
-        color: #FFF;
-        font-family: 'Poppins', sans-serif;
-        font-size: 1rem;
-        font-weight: 200;
-        margin: 2.8% 1% 3% 5%;
-    }
-
-    .bottom-main .about-area .getInTouch-info .copyrights {
-        color: rgb(197, 197, 197);
-        font-family: 'Outfit', sans-serif;
-        opacity: 0.9;
-        font-size: 1rem;
-        font-weight: 200;
-        margin-top: 10%;
-        margin-bottom: 2%;
-        margin-left: 5%;
-    }
-
-    .view-btn button {
-        transition: transform .2s;
-        color: #5762c3;
-        font-family: 'Poppins', sans-serif;
-        font-size: 0.9rem;
-        background-color: rgb(253, 252, 252);
-        border: 2px solid #5762c3;
-        border-radius: 8px;
-        opacity: 0.8;
-        padding: 6px 18px 6px 18px;
-        margin: 1rem 2rem 0 0;
-    }
-    
-    .view-btn button:hover {
-        transform: scale(1.05); 
-        transition: transform .2s;
-        color: #5762c3;
-        font-family: 'Poppins', sans-serif;
-        font-size: 0.9rem;
-        background-color: rgb(253, 252, 252);
-        border: 2px solid #5762c3;
-        border-radius: 8px;
-        opacity: 0.8;
-        padding: 6px 18px 6px 18px;
-        margin: 1rem 2rem 0 0;
-    }
-
-    .view-btn button:visited {
-        transition: transform .2s;
-        color: #5762c3;
-        font-family: 'Poppins', sans-serif;
-        font-size: 0.9rem;
-        background-color: rgb(253, 252, 252);
-        border: 2px solid #5762c3;
-        border-radius: 8px;
-        opacity: 0.8;
-        padding: 6px 18px 6px 18px;
-        margin: 1rem 2rem 0 0;
-    }
-
-    .view-btn button:links {
-        transition: transform .2s;
-        color: #5762c3;
-        font-family: 'Poppins', sans-serif;
-        font-size: 0.9rem;
-        background-color: rgb(253, 252, 252);
-        border: 2px solid #5762c3;
-        border-radius: 8px;
-        opacity: 0.8;
-        padding: 6px 18px 6px 18px;
-        margin: 1rem 2rem 0 0;
-    }
-
-
-    .bottom-main .about-area .getInTouch-info button:hover {
-        transform: scale(1.05); 
-        background: transparent;
-        transition: transform .2s;
-        color: #FFF;
-        border: 1px solid #AAB3FF;
-        border-radius: 50px;
-        padding: 15px 30px 15px 30px;
-        font-family: 'Poppins', sans-serif;
-        font-weight: 300;
-        font-size: 0.9rem;
-        margin: 0 1% 1% 5%;
-    }
-}
-
-
 .project-area {
-    margin-bottom: 8%; /* distance from footer */
+    padding: 4rem 15%;
 }
-     
+
+.project-area .button-group button {
+    background: transparent;
+    border: none;
+    font: normal 300 16px var(--poppins);
+    margin: 1rem 0;
+    padding-right: 3rem;
+}
+
+.project-area .grid .the-project {
+    margin: 3rem 0;
+}
+
+.project-area .grid .the-project > .skills p {
+    font: normal 500 0.9rem var(--openSans);
+    color: var(--dark-gray);
+}
+
+.project-area .grid .the-project > .description p {
+    font: normal 400 0.9rem var(--openSans);
+    color: #333;
+    line-height: 1.7;
+}
+
+.contact-area {
+    margin: 6% 15% 0 15%;
+}
+
+.blankSpaceHolder {
+    padding: 4% 0; /* spaces between projects */
+}
+@media screen and (max-width: 767.98px) { /* Small device */
+    /* Project Area */
+    .project-area .grid .the-project .img img.main {
+        width: 75%;
+        margin-top: 1rem;
+        
+    }
+
+    .project-area .grid .the-project > .title h4 {
+        font: normal 500 1.2rem var(--poppins);
+        padding-bottom: 0.5rem;
+    }
+
+}
+
+@media screen and (min-width: 767.99px) { /* Large device */
+    /* Project Area */
+    .project-area .grid .the-project .img img.main {
+        width: 80%;
+        margin-top: 0.5rem;
+    }
+    
+    .project-area .grid .the-project > .title h4 {
+        font: normal 500 1.3rem var(--poppins);
+        padding-bottom: 0.5rem;
+    }
+
+}
+
