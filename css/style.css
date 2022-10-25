@@ -2,8 +2,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap');
 
-/* import css variables */
-@import url(partials/_variables.css);
+html, body {
+    margin: 0%;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+/* CSS Variables */
+:root {
+    --primary-black: #1b1b1b;
+    --second-black: #393939;
+    --light-gray: rgb(182, 182, 182);
+    --dark-gray: rgb(135, 135, 135);
+    --box-shadow: 0px 10px 30px rgba(78, 77, 84, 0.205);
+
+    --theme-green: #869d7b;
+    --light-green: rgb(112, 157, 90);
+
+    --poppins: 'Poppins', sans-serif;
+    --openSans: 'Open Sans', sans-serif;
+}
 
 body {
     animation: fadeIn ease 2s;
