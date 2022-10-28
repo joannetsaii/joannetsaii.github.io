@@ -25,17 +25,27 @@
     margin: 0;
 }
 
-/* @media screen and (max-width: 575.98px) {   
-    .top-img #gpbo-img {
-    	background-image: url("./assets/bakingIcons-sm.png");
-    } 
+.top-img #hc-img { 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 5;
+    position: relative;
+    background-color:#F6D8C6;
+    padding: 3rem 0;
+    margin: 0;
 }
 
-@media screen and (max-width: 767.98px) {   
-    .top-img #gpbo-img {
-    	background-image: url("./assets/bakingIcons-md.png");
-    } 
-} */
+.top-img #hf-img { 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 5;
+    position: relative;
+    background-color:#FFF2E3;
+    padding: 3rem 0;
+    margin: 0;
+}
 
 .project-details table {
     margin-bottom: 1.5rem;
@@ -93,6 +103,41 @@
 .content .paragraph ul {
     font: normal 400 0.9rem var(--openSans);
     line-height: 1.7;
+}
+
+@media screen and (max-width: 376px) { /* Small device */
+    .content iframe {
+        width: 268.8px;
+        height: 166.4px;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 576px) { /* Small device */
+    .content iframe {
+        width: 369.6px;
+        height: 207.9px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) { /* Small device */
+    .content iframe {
+        width: 392px;
+        height: 220.5px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) { /* Large device */
+    .content iframe {
+        width: 448px;
+        height: 252px;
+    }
+}
+
+@media screen and (min-width: 992px) { /* Large device */
+    .content iframe {
+        width: 560px;
+        height: 315px;
+    }
 }
 
 /* Email link */
