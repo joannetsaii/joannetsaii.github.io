@@ -76,9 +76,10 @@ body {
     margin: 0 8%;
 }
 
-.navbar-brand {  /* joanne tsai */
-    padding: 0.5rem 0 0.5rem 0;
-    font: normal 500 1.5rem var(--poppins);
+a.navbar-brand {  /* joanne tsai */
+    margin-top: 0.9rem;
+    padding: 0 0 0.5rem 0;
+    font: normal 600 1.5rem var(--poppins);
     color: var(--primary-black);
 }
 
@@ -105,7 +106,7 @@ body {
     border-radius: 10px;
     opacity: 0.8;
     padding: 8px 16px 8px 16px;
-    margin-top: 0.5rem;
+    margin-top: 0.8rem;
     margin-right: 3rem; /* margin between buttons */
 }
 
@@ -120,7 +121,7 @@ body {
     border-radius: 10px;
     opacity: 0.8;
     padding: 8px 16px 8px 16px;
-    margin-top: 0.5rem;
+    margin-top: 0.8rem;
     margin-right: 3rem; /* margin between buttons */
 }
 

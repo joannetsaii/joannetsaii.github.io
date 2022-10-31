@@ -35,13 +35,12 @@
 @media screen and (max-width: 767.98px) { /* Small device */
     /* Project Area */
     .project-area .grid .the-project .img img.main {
-        width: 75%;
+        width: 90%;
         margin-top: 1rem;
-        
     }
 
     .project-area .grid .the-project > .title h4 {
-        font: normal 500 1.2rem var(--poppins);
+        font: normal 500 1.5rem var(--poppins);
         padding-bottom: 0.5rem;
     }
 
@@ -50,12 +49,12 @@
 @media screen and (min-width: 767.99px) { /* Large device */
     /* Project Area */
     .project-area .grid .the-project .img img.main {
-        width: 80%;
+        width: 95%;
         margin-top: 0.5rem;
     }
     
     .project-area .grid .the-project > .title h4 {
-        font: normal 500 1.3rem var(--poppins);
+        font: normal 500 1.4rem var(--poppins);
         padding-bottom: 0.5rem;
     }
 
