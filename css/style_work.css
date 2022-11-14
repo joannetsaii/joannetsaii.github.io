@@ -1,17 +1,9 @@
-.project-area {
-    padding: 4rem 15%;
-}
-
 .project-area .button-group button {
     background: transparent;
     border: none;
     font: normal 300 16px var(--poppins);
     margin: 1rem 0;
     padding-right: 3rem;
-}
-
-.project-area .grid .the-project {
-    margin: 3rem 0;
 }
 
 .project-area .grid .the-project > .skills p {
@@ -25,17 +17,19 @@
     line-height: 1.7;
 }
 
-.contact-area {
-    margin: 6% 15% 0 15%;
-}
-
 .blankSpaceHolder {
     padding: 4% 0; /* spaces between projects */
 }
 @media screen and (max-width: 767.98px) { /* Small device */
+    .project-area {
+        padding: 2rem 5% 0 5%;
+    }
     /* Project Area */
+    .project-area .grid .the-project {
+        margin: 0.9rem 0;
+    }
     .project-area .grid .the-project .img img.main {
-        width: 90%;
+        width: 100%;
         margin-top: 1rem;
     }
 
@@ -43,11 +37,22 @@
         font: normal 500 1.5rem var(--poppins);
         padding-bottom: 0.5rem;
     }
-
+    .contact-area {
+        margin: 6% 5% 0 5%;
+    }
 }
 
 @media screen and (min-width: 767.99px) { /* Large device */
+    .project-area {
+        padding: 4rem 15%;
+    }
+    .contact-area {
+        margin: 6% 15% 0 15%;
+    }
     /* Project Area */
+    .project-area .grid .the-project {
+        margin: 3rem 0;
+    }
     .project-area .grid .the-project .img img.main {
         width: 95%;
         margin-top: 0.5rem;
