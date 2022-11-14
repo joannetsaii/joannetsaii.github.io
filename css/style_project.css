@@ -1,7 +1,3 @@
-.project-details {
-    margin: 0 15%;
-}
-
 .top-img img#google { /* project title */
     width: 100%;
     display: flex;
@@ -111,12 +107,42 @@
         width: 268.8px;
         height: 166.4px;
     }
+    /* Contact section */
+    .contact-area {
+        margin: 0 5%;
+        padding: 0rem 0 3rem 0;
+        background: transparent;
+    }
+    .project-details {
+        margin: 0 5%;
+    }
+    .row .float { /* previous & next */
+        width: 50%;
+    }
+    .projectBlankSpace {
+        padding-top: 2rem;
+    }
 }
 
 @media screen and (min-width: 376px) and (max-width: 576px) { /* Small device */
     .content iframe {
         width: 369.6px;
         height: 207.9px;
+    }
+    /* Contact section */
+    .contact-area {
+        margin: 0 5%;
+        padding: 0rem 0 3rem 0;
+        background: transparent;
+    }
+    .project-details {
+        margin: 0 5%;
+    }
+    .row .float { /* previous & next */
+        width: 50%;
+    }
+    .projectBlankSpace {
+        padding-top: 2rem;
     }
 }
 
@@ -125,6 +151,21 @@
         width: 392px;
         height: 220.5px;
     }
+    /* Contact section */
+    .contact-area {
+        margin: 0 5%;
+        padding: 0rem 0 3rem 0;
+        background: transparent;
+    }
+    .project-details {
+        margin: 0 5%;
+    }
+    .row .float { /* previous & next */
+        width: 50%;
+    }
+    .projectBlankSpace {
+        padding-top: 2rem;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) { /* Large device */
@@ -132,12 +173,36 @@
         width: 448px;
         height: 252px;
     }
+    .project-details { 
+        margin: 0 15%; 
+    }
+    .projectBlankSpace {
+        padding-top: 2rem;
+    }
+    /* Contact section */
+    .contact-area {
+        margin: 0 15%;
+        padding: 0rem 0 5rem 0;
+        background: transparent;
+    }
 }
 
 @media screen and (min-width: 992px) { /* Large device */
     .content iframe {
         width: 560px;
         height: 315px;
+    }
+    .project-details {
+        margin: 0 15%;
+    }
+    .projectBlankSpace {
+        padding-top: 4rem;
+    }
+    /* Contact section */
+    .contact-area {
+        margin: 0 15%;
+        padding: 0rem 0 5rem 0;
+        background: transparent;
     }
 }
 
@@ -199,11 +264,4 @@ ion-icon {
     font-size: 20px;
     padding-top: 25px;
     color: #333;
-}
-
-/* Contact section */
-.contact-area {
-    margin: 0 15%;
-    padding: 0rem 0 5rem 0;
-    background: transparent;
 }

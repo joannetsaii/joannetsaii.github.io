@@ -19,6 +19,7 @@ html, body {
     --box-shadow: 0px 10px 30px rgba(78, 77, 84, 0.205);
 
     --theme-green: #869d7b;
+    --white-green: #aec4a4;
     --light-green: rgb(112, 157, 90);
 
     --poppins: 'Poppins', sans-serif;
@@ -89,6 +90,11 @@ a.navbar-brand {  /* joanne tsai */
     text-underline-position: under;
 }
 
+.main-menu .container-fluid,
+.header_area .container-fluid { /* top name + navbar */
+    padding-right: 0;
+    padding-left: 0;
+}
 
 /* Buttons */
 .view-btn button,
@@ -109,11 +115,11 @@ a.navbar-brand {  /* joanne tsai */
 .view-btn button:hover {
     /* transform: scale(1.05);  */
     transition: transform .2s;
-    color: var(--theme-green);
+    color: #fff;
     font-family: 'Poppins', sans-serif;
     font-size: 0.9rem;
-    background-color: rgb(253, 252, 252);
-    border: 2px solid var(--theme-green);
+    background-color: var(--white-green);
+    border: 2px solid var(--white-green);
     border-radius: 10px;
     opacity: 0.8;
     padding: 8px 16px 8px 16px;
