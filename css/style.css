@@ -182,7 +182,7 @@ hr {
         font-size: 0.9rem;
     }
     .copyrights {
-        text-align: left;
+        text-align: center;
         color: var(--light-gray);
         padding-top: 0.5rem;
         font: normal 300 0.9rem var(--poppins);
@@ -217,7 +217,7 @@ hr {
     }
 
     .copyrights {
-        text-align: right;
+        text-align: center;
         color: var(--light-gray);
         padding-top: 0.5rem;
         font: normal 300 0.9rem var(--poppins);

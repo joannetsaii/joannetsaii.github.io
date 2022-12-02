@@ -1,28 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Work — Joanne Tsai</title>
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="keywords" content="Software Engineer, Software Developer, Data Engineer, UI/UX Engineer, Information Systems, Computer Science, UX Design, Carnegie Mellon University, CMU">
+      <meta name="description" content="Personal website for Joanne Tsai - Information Systems at CMU, Class of 2024">
+      <title>Joanne Tsai</title>
 
-    <!-- Custom css file -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/style_index.css">
+      <!-- Bootstrap css file -->
+      <link rel="stylesheet" href="./css/bootstrap.min.css">
 
-    <!-- Bootstrap css file -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!-- Bootstrap Font Icon CSS -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 
-    <!-- Bootstrap Font Icon CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+      <!-- Custom css file -->
+      <link rel="stylesheet" href="./css/style.css">
+      <link rel="stylesheet" href="./css/style_index.css">
 
-    <!-- Bootstrap js file -->
-    <script src="js/bootstrap.min.js"></script>
-    
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
-</head>
-<body>
+      <!-- jQuery js file -->
+      <script src="./js/jquery.3.6.1.js"></script>
+
+      <!-- Bootstrap js file -->
+      <script src="./js/bootstrap.min.js"></script>
+
+      <!-- Custom js file -->
+      <script src="./js/main.js"></script>
+
+      <!--  isotope js library  -->
+      <script src="./vendor/isotope/isotope.min.js"></script>
+      
+      <!-- Favicon -->
+      <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
+  </head>
+  <body>
     <!-- ///////////////////////////////////////////////////////////////////////////
                         START SECTION 1 - THE NAVBAR SECTION  
     /////////////////////////////////////////////////////////////////////////////-->
@@ -49,157 +60,116 @@
 
     <section class="project-area">
       <div class="container">
-        <!-- <div class="button-group">
-          <button type="button" class="active" data-filter="*">All</button>
-          <button type="button" data-filter=".front-end">Front End</button>
-          <button type="button" data-filter=".back-end">Back End</button>
-          <button type="button" data-filter=".full-stack">Full Stack</button>
-          <button type="button" data-filter=".data-science">Data Science</button>
-        </div> -->
-      
-      <div class="row grid">
-        <div class="col-lg-12 col-md-12 col-sm-12 element-item">
+        <!-- <div class="col-lg-12 col-md-12 col-sm-12 element-item">
           <div class="the-project">
             <div class="title">
-              <h4>This portfolio showcases the design-driven projects I have worked on, including elements of 
+              <h4>
+                This portfolio showcases the design-driven projects I have worked on, including elements of 
                 web app design, UX design, and full-stack software development. </h4>
             </div>
           </div>
-        </div> <!-- Close element-item -->
+        </div> -->
 
-        <div style="padding-top:5%"></div>
-
-        <div class="col-lg-5 col-md-5 col-sm-12 element-item">
-          <div class="the-project">
-            <div class="img">
-                <img class="main" src="assets/google-nest-cameras.png" alt="Google Nest">
-                <!-- image citation: https://www.androidguys.com/news/nest-new-google-nest-branded-security-products/ -->
-                <!-- <img class="hover" src="assets/google-dark.png" alt="Google Nest"> -->
-            </div>
+        <!-- <div style="padding-top:5%"></div> -->
+          <div class="button-group">
+            <button type="button" class="active" data-filter="*">All</button>
+            <button type="button" data-filter=".ux">UX</button>
+            <button type="button" data-filter=".software">Software</button>
+            <button type="button" data-filter=".data">Data</button>
           </div>
-        </div>
-        <div class="col-lg-7 col-md-7 col-sm-12 element-item">
-          <div class="the-project">
-            <div class="title">
-              <h4>Google - Student Training in Engineering Program</h4>
-            </div>
-            <div class="skills py-1">
-              <p>#Back end development &nbsp;#LibraryAPI &nbsp;#Software testing</p>
-            </div>
-            <div class="description py-1">
-              <p>A refactor plan to enhance an internal developer tool used for Google Nest's camera products.</p>
-            </div>
-            <div class="description py-1">
-               <p>The re-design of system flow and the integration of a third-party library API successfully improved the performance and reliability of the functionality.</p>
-            </div>
-            <div class="d-flex flex-row flex-wrap view-btn">
-              <a href="google-project.html"><button type="button" class="btn button primary-button">view more</button></a>
-            </div>
-          </div> <!-- Close the-project -->
-        </div> <!-- Close element-item -->
 
-        <div class="blankSpaceHolder"></div>
-
-        <div class="col-lg-5 col-md-5 col-sm-12 element-item">
-          <div class="the-project">
-            <div class="img">
-              <img class="main" src="assets/GPBO-home.png" alt="The Great Pittsburgh Baking Outlet">
-              <!-- <img class="hover" src="assets/GPBO.png" alt="The Great Pittsburgh Baking Outlet"> -->
-            </div>
-          </div> <!-- Close the-project -->
-        </div> <!-- Close element-item -->
-        <div class="col-lg-7 col-md-7 col-sm-12 element-item">
-          <div class="the-project">
-            <div class="title">
-              <h4>The Great Pittsburgh Baking Outlet</h4>
-            </div>
-            <div class="skills py-1">
-              <p>#Full stack development &nbsp;#Web application &nbsp;#Relational database #API</p>
-            </div>
-            <div class="description py-1">
-                <p>A fully functional e-commerce web application built from scratch using Ruby on Rails and REST API.</p>
-            </div>
-            <div class="description py-1">
-                <p>The Model-View-Controller software architectural pattern is applied to build back-end relational models, middleware controllers, and front-end views.</p>
-            </div>
-            <div class="d-flex flex-row flex-wrap view-btn">
-                <a href="gpbo-project.html"><button type="button" class="btn button primary-button">view more</button></a>
-              </div>
-          </div> <!-- Close the-project -->
-        </div> <!-- Close element-item -->
-
-        <div class="blankSpaceHolder"></div>
-
-        <div class="col-lg-5 col-md-5 col-sm-12 element-item">
-          <div class="the-project">
-            <div class="img">
-              <img class="main" src="assets/healthconnect.gif" alt="HealthConnect">
-              <!-- <img class="hover" src="assets/healthconnect.png" alt="HealthConnect"> -->
-            </div>
-          </div> <!-- Close the-project -->
-        </div> <!-- Close element-item -->
-        <div class="col-lg-7 col-md-7 col-sm-12 element-item full-stack">
-          <div class="the-project">
-            <div class="title">
-              <h4>HealthConnect - Online Appointment Scheduler</h4>
-            </div>
-            <div class="skills py-1">
-              <p>#Interface design &nbsp;#Prototyping &nbsp;#Web development &nbsp;#Usability testing</p>
-            </div>
-            <div class="description py-1">
-              <p>A functional web prototype designed and built from scratch for CMU Health Services, using HTML, CSS, and JavaScript.</p>
-            </div>
-            <div class="description py-1">
-              <p>Students and faculties can make, update, and cancel vaccination appointments, and view past and upcoming appointments.</p>
-            </div>
-            <div class="d-flex flex-row flex-wrap view-btn">
-              <a href="https://drive.google.com/file/d/1HhvLx5YGuCJLZWGT4KqpjBczSeqHxVhR/view?usp=sharing" target="_blank"><button type="button" class="btn button primary-button">view demo</button></a>
-            </div>
-          </div> <!-- Close the-project -->
-        </div> <!-- Close element-item -->
-
-        <div class="blankSpaceHolder"></div>
-
-        <div class="col-lg-5 col-md-5 col-sm-12 element-item full-stack">
-          <div class="the-project">
-            <div class="img">
-              <img class="main" src="assets/hamsterfund.gif" alt="Hamster Fund">
-              <!-- <img class="hover" src="assets/hamsterfund.png" alt="Hamster Fund"> -->
-            </div>
-          </div> <!-- Close the-project -->
-        </div> <!-- Close element-item -->
-        <div class="col-lg-7 col-md-7 col-sm-12 element-item full-stack">
-          <div class="the-project">
-            <div class="title">
-              <h4>Hamster Fund - Budget & Expense Manager</h4>
-            </div>
-            <div class="skills py-1">
-              <p>#Programming algorithms &nbsp;#Data visualization &nbsp;#Web scraping &nbsp;#UI design</p>
-            </div>
-            <div class="description py-1">
-              <p>A personal budgeting app coded in Python where users can record expenses, make budgeting plans, 
-              and view personal financial analyses through graphs and ratings.</p>
-            </div>
-            <div class="description py-1">
-              <p>This app is built in Python and implemented the Matplotlib library for data visualization
-                and the Requests and Beautiful Soup libraries for web scraping.</p>
-            </div>
-            <div class="view-btn">
-              <div class="d-flex flex-row flex-wrap">
-                <a href="hamsterFund-project.html"><button type="button" class="btn button primary-button">view more</button></a>
+          <div class="row grid">
+            <div class="col-lg-4 col-md-6 col-sm-12 element-item ux">
+              <div class="the-project">
+                <div class="img">
+                  <!-- <a href="travelBuddy.html"> -->
+                    <img src="assets/travelBuddy.png" alt="Hamster Fund" class="img-fluid">
+                  <!-- </a> -->
+                </div>
+                <div class="title py-4">
+                  <h4>TravelBuddy (in progress)</h4>
+                    <p class="skills">Conducting user-centered research to design a collaborative trip planning platform.</p>
+                </div>
               </div>
             </div>
-          </div> <!-- Close the-project -->
-        </div> <!-- Close element-item -->
 
-     
-      </div> <!-- Close grid -->
-    </div> <!-- Close container -->
-    </section>
-    <!-- <div class="blankSpaceHolder"></div> -->
+            <div class="col-lg-4 col-md-6 col-sm-12 element-item software">
+              <div class="the-project">
+                <div class="img">
+                  <!-- <a href="zulip.html"> -->
+                    <img src="assets/zulip.png" alt="Hamster Fund" class="img-fluid">
+                  <!-- </a> -->
+                </div>
+                <div class="title py-4">
+                  <h4>Zulip (in progress)</h4>
+                    <p class="skills">Building new features for the open-source team collaboration tool Zulip, an alternative to Slack.</p>
+                </div>
+              </div>
+            </div>
 
+            <div class="col-lg-4 col-md-6 col-sm-12 element-item software">
+                <div class="the-project">
+                    <div class="img">
+                      <a href="google-internship.html">
+                        <img src="assets/google-nest-cameras.png" alt="Google Nest" class="img-fluid">
+                      </a>
+                    </div>
+                    <div class="title py-4">
+                        <h4>Google — Student Training in Engineering Program Internship</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 element-item software">
+              <!-- <a href="gpbo.html"> -->
+                <div class="the-project">
+                    <div class="img">
+                      <a href="gpbo.html">
+                        <img src="assets/GPBO-home.png" alt="The Great Pittsburgh Baking Outlet" class="img-fluid">
+                      </a>
+                    </div>
+                    <div class="title py-4">
+                      <h4>The Great Pittsburgh Baking Outlet</h4>
+                      <p class="skills">An e-commerce web application built using Ruby on Rails.</p>
+                    </div>
+                </div>
+              <!-- </a> -->
+            </div>
+              
+
+              <div class="col-lg-4 col-md-6 col-sm-12 element-item ux software">
+                  <div class="the-project">
+                      <div class="img">
+                          <a class="test-popup-link" href="webprojects.html">
+                              <img src="assets/webprojects.png" alt="HealthConnect" class="img-fluid">
+                          </a>
+                      </div>
+                      <div class="title py-4">
+                          <h4>Web Project Collection</h4>
+                          <p class="skills">Design-driven web projects built using HTML, CSS, and JavaScript.</p>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 col-sm-12 element-item software">
+                <div class="the-project">
+                  <div class="img">
+                    <a href="hamsterfund.html">
+                      <img src="assets/hamsterfund.png" alt="Hamster Fund" class="img-fluid">
+                    </a>
+                  </div>
+                  <div class="title py-4">
+                    <h4>Hamster Fund — Budget & Expense Manager</h4>
+                      <p class="skills">A functional budgeting app interface built using Python.</p>
+                  </div>
+                </div>
+              </div>
+
+          </div>
+      </div>
+  </section>
     <section class="contact-area">
-        <hr size="4px">  
+        <hr size="4px" style="border-radius: 3px;">  
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-12 py-0" id="email">
                 <a href="mailto:joannetsai21@gmail.com" target="_blank"><button type="button"><i class="bi bi-envelope-fill"></i>&nbsp;&nbsp;joannetsai21@gmail.com</button></a>

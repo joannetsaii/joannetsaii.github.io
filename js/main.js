@@ -1,5 +1,5 @@
-// $(document).ready(function () {
-jQuery(function() {
+$(document).ready(function () {
+
     let $btns = $('.project-area .button-group button');
 
     $btns.click(function (e) {
@@ -14,5 +14,7 @@ jQuery(function() {
 
         return false;
     })
+
+    $('.project-area .button-group #btn1').trigger('click');
 
 });

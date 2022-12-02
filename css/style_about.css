@@ -166,6 +166,7 @@
     border-radius: 10px;
     font-weight: 400;
     font: normal 500 0.9rem var(--poppins);
+    /* border: 2px solid var(--theme-green); */
 }
 
 .coursework-area .content .accordion-button:not(.collapsed) {
@@ -174,10 +175,12 @@
     border-radius: 10px;
     background: #FFF;
     font: normal 500 0.9rem var(--poppins);
+    /* border: 2px solid var(--theme-green); */
 }
 
 .coursework-area .content .accordion-button:not(.collapsed)::after {
     filter: brightness(0%) invert(100%);
+    border-radius: 10px;
 }
 
 .coursework-area .content .accordion-button:focus {
@@ -189,6 +192,7 @@
     font: normal 300 0.9rem var(--poppins);
     border-radius: 10px;
     line-height: 1.6;
+    border-radius: 10px;
 }
 
 .accordion-body a,
