@@ -32,6 +32,17 @@
     margin: 0;
 }
 
+.top-img #ap-img { 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 5;
+    position: relative;
+    background-color:#6E61C1;
+    padding: 1.5rem 0;
+    margin: 0;
+}
+
 .project-details table {
     margin-bottom: 1.5rem;
     text-align: left;
@@ -100,7 +111,7 @@
 } */
 
 @media screen and (max-width: 376px) { /* Small device */
-    .content iframe {
+    .content iframe, .project iframe {
         width: 268.8px;
         height: 166.4px;
     }
@@ -122,6 +133,10 @@
 }
 
 @media screen and (min-width: 376px) and (max-width: 576px) { /* Small device */
+    .project iframe {
+        width: 295.7px;
+        height: 166.32px;
+    }
     .content iframe {
         width: 369.6px;
         height: 207.9px;
@@ -148,9 +163,9 @@
 }
 
 @media screen and (min-width: 576px) and (max-width: 768px) { /* Small device */
-    .content iframe {
-        width: 392px;
-        height: 220.5px;
+    .content iframe, .project iframe {
+        width: 352.8px;
+        height: 198.45px;
     }
     /* Contact section */
     .contact-area {
@@ -175,7 +190,7 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) { /* Large device */
-    .content iframe {
+    .content iframe, .project iframe {
         width: 448px;
         height: 252px;
     }
@@ -200,7 +215,7 @@
 }
 
 @media screen and (min-width: 992px) { /* Large device */
-    .content iframe {
+    .content iframe, .project iframe {
         width: 560px;
         height: 315px;
     }
@@ -284,42 +299,56 @@ ion-icon {
     color: #333;
 }
 
-
 .timeline-with-icons {
     border-left: 1px solid hsl(0, 0%, 90%);
     position: relative;
     list-style: none;
-  }
+}
   
-  .timeline-with-icons .timeline-item {
+.timeline-with-icons .timeline-item {
     position: relative;
-  }
+}
   
-  .timeline-with-icons .timeline-item:after {
+.timeline-with-icons .timeline-item:after {
     position: absolute;
     display: block;
     top: 0;
-  }
+}
   
-  .timeline-with-icons .timeline-icon {
+.timeline-with-icons .timeline-icon {
     position: absolute;
     left: -48px;
-    background-color: hsl(217, 88.2%, 90%);
-    color: hsl(217, 88.8%, 35.1%);
+    background-color: #DFDBFB;
     border-radius: 50%;
     height: 31px;
     width: 31px;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+}
 
+  /* .timeline-with-icons li.timeline-item h5 {
+    font: normal 200 1.1rem var(--poppins);
+  } */
+
+.timeline-with-icons .timeline-item .method-name {
+    font: normal 600 1.2rem var(--poppins);
+}
 
 .timeline-item .row ul {
     font: normal 400 0.9rem var(--openSans);
     color: rgb(108, 117, 125);
     list-style-type: disc;
 }
+
+/* Under Customer Journey Map */
+.timeline-with-icons .timeline-item ul {
+    font: normal 400 0.9rem var(--openSans);
+    line-height: 1.7;
+    margin-top: 0.5rem;
+    color: rgb(108, 117, 125);
+    list-style-type: disc;
+  }
 
 /* only for web projects */
 .row .title table td a button,
@@ -340,4 +369,21 @@ ion-icon {
     border: none;
     text-decoration: underline;
     text-underline-position: under;
+}
+
+.content .paragraph ul.problems {
+    margin-top: 0.8rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-weight: 600;
+}
+
+.view-poster button, .view-poster button:visited {
+    background-color:#6E61C1; 
+    border-color:#6E61C1;
+}
+
+.view-poster button:hover {
+    background-color:#a79cea; 
+    border-color:#a79cea;
 }

@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdventurePlanner — Joanne Tsai</title>
+
+    <!-- Custom css file -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_project.css">
+
+    <!-- Bootstrap css file -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Bootstrap Font Icon CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <!-- Bootstrap js file -->
+    <script src="./js/bootstrap.min.js"></script>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
+
+    <!--  Magnific Popup css file  -->
+    <!-- <link rel="stylesheet" href="./vendor/Magnific-Popup/dist/magnific-popup.css"> -->
+
+    <style>
+        .project-details .content-with-side-border::before {
+            content: "";
+            height: 100%;
+            width: 3.5px;
+            background: #e3ddff;
+            float: left;
+            margin-right: 1.5rem;
+        }
+    </style>
+
+</head>
+<body>
+<!-- ///////////////////////////////////////////////////////////////////////////
+                    START SECTION 1 - THE NAVBAR SECTION  
+/////////////////////////////////////////////////////////////////////////////-->
+<header>
+    <div class="header_area">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Joanne Tsai</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-4 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" aria-current="page" href="about.html">About</a></li>
+                    <li class="nav-item" style="color: rgb(182, 182, 182);"><a class="nav-link active" href="index.html">Work</a></li>  
+                    <li class="nav-item"><a class="nav-link" href="documents/JoanneTsai-Resume.pdf" target="_blank">Resume</a></li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<!-- ///////////////////////////////////////////////////////////////////////////
+                    START SECTION 2 - BASIC PROJECT INFO
+/////////////////////////////////////////////////////////////////////////////-->
+<div class="col-lg-12 col-md-12 col-sm-12 top-img">
+    <picture>
+        <source media="(min-width: 1000px)" srcset="assets/projects/AP-lg.png">
+        <source media="(max-width: 576px)" srcset="assets/projects/AP-sm.png">
+        <img id="ap-img" src="assets/projects/AP-md.png" alt="AdventurePlanner">
+    </picture>
+</div>
+
+<!-- ///////////////////////////////////////////////////////////////////////////
+                    START SECTION 2 - THE PROJECT DETAILS 
+/////////////////////////////////////////////////////////////////////////////-->
+<section class="project-details">
+    <div class="projectBlankSpace"></div>
+        
+    <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-12 py-2 title">
+            <h3>Overview</h3>
+        </div>
+        <div class="col-lg-9 col-md-9 col-sm-12 py-2 content content-with-side-border">
+            <div class="paragraph w-100">
+                <table>
+                    <tr>
+                        <th>Duration</th>
+                        <td>Sep - Dec 2022 (12 weeks)</td>
+                    </tr>
+                    <tr>
+                        <th>Role</th>
+                        <td>UX Researcher &nbsp;•&nbsp; UX Designer</td>
+                    </tr>
+                    <tr>
+                        <th>Team</th>
+                        <td>Ria Manathkar (Project Manager)&nbsp;&nbsp;•&nbsp;&nbsp;Caroline Pang (Editor)</td>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <td>Christy Zo (Executive Assistant)&nbsp;&nbsp;•&nbsp;&nbsp;Joanne Tsai (Note Taker)</td>
+                    </tr>
+                    <tr>
+                        <th>Tools</th>
+                        <td>Figma &nbsp;•&nbsp; Miro</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="paragraph py-0 w-100">
+                <p>
+                    After extensive research in the travel planning industry, we found that the biggest area of opportunity to improve users’ 
+                    experience was to streamline a recommendation system tailored to their unique needs and preferences. We addressed this by 
+                    creating a digital platform that enables personalized travel guidance and planning coupled with crowdsourced credibility 
+                    scores. This creates a flexible incorporation into user’s current planning processes while remaining trustworthy.
+                </p>
+            </div>
+            <div class="view-btn view-poster">
+                <a href="https://www.figma.com/proto/Pffd08dIQ5b2v34MSfY4Vl/UCRE-Module-10%3A-Poster?node-id=89%3A322&scaling=contain&page-id=89%3A321&starting-point-node-id=89%3A322" target="_blank"><button style="margin-top:2rem;">View Summary on Poster</button></a>
+            </div>
+            
+        </div> <!-- Close content -->
+    </div> <!-- Close row -->
+
+    <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-12 py-2 title">
+            <h3>Area of Opportunity</h3>
+        </div>
+        <div class="col-lg-9 col-md-9 col-sm-12 py-2 content content-with-side-border">
+            <div class="paragraph w-100">
+                <p>
+                    Travel planning requires factors such as budgeting, scheduling, and making decisions on stays, food, etc., to be considered.
+                    Some problems we identified that most users have are:
+                </p>
+                <ul class="problems">
+                    <li>The amount of information available on the internet and different personal preferences in organizing information make
+                        the process of travel planning arduous and inefficient.
+                    </li>
+                    <li>The task of having to check multiple sources to see if online information is credible compounds the research time.</li>
+                </ul> 
+                <p>
+                    Through research, we were able to see that the most trustworthy information was consistent, crowdsourced reviews and ratings when it 
+                    came to online travel research.
+                </p>
+            </div>
+        </div> <!-- Close content -->
+    </div> <!-- Close row -->
+
+    <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-12 py-0 title">
+            <h3>Methods</h3>
+        </div>
+        <div class="col-lg-9 col-md-9 col-sm-12 py-0 content">
+            <!-- Section: Timeline -->
+            <section class="py-2">
+                <ul class="timeline-with-icons">
+                    <li class="timeline-item mb-5">
+                        <span class="timeline-icon">
+                        <i class="fas fa-hand-holding-usd text-primary fa-sm fa-fw"></i>
+                        </span>
+                        <h5 class="method-name">Background Research</h5>
+                        <p class="text-muted">
+                            We started our research by conducting background research on trip planning, which involved both experiential and informational search.
+                            We also visualized and analyzed data using Tableau and Python to gain insights and execute thoughts into a report suggesting methods of research and  inferences.
+                        </p>
+                    </li>
+                
+                    <li class="timeline-item mb-5">
+                        <span class="timeline-icon">
+                        <i class="fas fa-hand-holding-usd text-primary fa-sm fa-fw"></i>
+                        </span>
+                        <h5 class="method-name">Ideate & Define</h5>
+                        <p class="text-muted mb-2 fw-bold">1.&nbsp;&nbsp;Ideation: Reverse Assumptions</p>
+                        <p class="text-muted">
+                            We used Miro to map out our various assumptions and their reversals. We generated 10 assumptions and then immediately 
+                            challenged them. Then we created a list of corresponding ideas that accomplished each reversal. Based on these ideas, 
+                            we chose our favorite and expanded on it above.
+                        </p>
+                        <img src="./assets/AdventurePlanner/reverse_assumptions.png" width="100%" style="margin:0.7rem 0 1.5rem 0;">
+                        <p class="text-muted mb-2 fw-bold">2.&nbsp;&nbsp;Problem Statement Reframed</p>
+                        <img src="./assets/AdventurePlanner/problem_statement.png" width="100%">
+                    </li>
+
+                    <li class="timeline-item mb-5">
+                        <span class="timeline-icon">
+                        <i class="fas fa-rocket text-primary fa-sm fa-fw"></i>
+                        </span>
+                
+                        <h5 class="method-name">Contextual Research</h5>
+                        <!-- <p class="text-muted mb-2 fw-bold">Plan &nbsp; ➜ &nbsp; Analyze &nbsp; ➜ &nbsp; Synthesize &nbsp; ➜ &nbsp; Report</p> -->
+                        <p class="text-muted">
+                            We began by drafting a research protocol and consent script to help us understand our guiding questions. Then, after recruiting 
+                            four eligible participants, we conducted contextual interviews using contextual inquiry. After each interview, each researcher wrote up their 
+                            interpretation notes and we came together to synthesize our findings in an <span style="font-weight:700;">affinity diagram</span>.
+                            
+                            <img src="./assets/AdventurePlanner/affinity_diagram.png" width="100%" style="margin:1rem 0;"><br>
+                            Our goals for the interviews were to understand how and why the participants make specific decisions when it comes 
+                            to research and to reveal possible environmental factors affecting their travel preferences. 
+
+                        </p>
+                    </li>
+                    
+                    <li class="timeline-item mb-5">
+                        <span class="timeline-icon">
+                        <i class="fas fa-users text-primary fa-sm fa-fw"></i>
+                        </span>
+                        <h5 class="method-name">Modeling</h5>
+                        <p class="text-muted mb-2 fw-bold">Empathy Map:<span style="font-weight:400">&nbsp;defining our target users once again and sythesizing data better</span></p>
+                        <img src="./assets/AdventurePlanner/empathy_map.png" width="100%" style="margin:0.3rem 0 1rem 0;"><br><br>
+                        <p class="text-muted mb-2 fw-bold">Customer Journey Map:<span style="font-weight:400">&nbsp;documenting typical travel planning experience</span></p>
+                        <img src="./assets/AdventurePlanner/journey_map.png" width="100%" style="margin:0.3rem 0 2rem 0;"><br>
+                        <!-- <p class="text-muted">(link to original FigJam file for better viewing)</p> -->
+                        <!-- https://www.figma.com/file/gpT8DasQl0xEU2bCbsrKSi/User-Research---Modeling?node-id=0%3A1&t=7APuf9lZUT5jW8RH-1 -->
+                        
+                        <p class="text-muted">Through affinity diagramming and modeling, we extracted some high-level insights from our findings with supported evidence:</p>
+                        <ul style="background-color:#f0edff; color:var(--primary-black); border-radius:3px; padding: 1rem 3rem;">
+                            <li>People trust recommendations from friends and family over most online information.</li>
+                            <li>People value authenticity and simplicity when travel planning.</li>
+                            <li>People have very different tendencies when it comes to organizing travel information.</li>
+                            <li>People have unique limitations when traveling which influence the decisions they make.</li>
+                            <li>People don’t feel the need to have a strict travel plan due to the ease of digital research.</li>
+                        </ul>
+                    
+                    </li>
+                
+                    <li class="timeline-item mb-5">
+                
+                        <span class="timeline-icon">
+                        <i class="fas fa-money-bill-wave text-primary fa-sm fa-fw"></i>
+                        </span>
+                        <h5 class="method-name">Storyboarding</h5>
+                        <p class="text-muted">
+                            With these new insights from our contextual research, our next step was to start exploring concepts to reimagine how 
+                            the future of travel planning may look. We used <span style="font-weight:700;">a combination of storyboarding and speed dating to rapidly 
+                            prototype and evaluate different potential solutions</span> based on our findings.
+                            <br>
+                            To generate ideas for storyboards, we practiced the activity Walking the Wall, where we reviewed all previous research
+                            and drew connections between the results, and played Crazy 8s, a brainstorm session on user's needs and potential solutions.
+                        </p>
+                            <p class="text-muted mb-2 fw-bold" style="margin-top:1rem;">Crazy 8s</p>
+                            <div class="row">
+                                <div class="col-lg-3 col-md-2 col-sm-12">
+                                    <img src="./assets/AdventurePlanner/crazy8-1.png" width="100%">
+                                </div>
+                                <div class="col-lg-3 col-md-2 col-sm-12">
+                                    <img src="./assets/AdventurePlanner/crazy8-2.png" width="100%">
+                                </div>
+                                <div class="col-lg-3 col-md-2 col-sm-12">
+                                    <img src="./assets/AdventurePlanner/crazy8-3.png" width="100%">
+                                </div>
+                                <div class="col-lg-3 col-md-2 col-sm-12">
+                                    <img src="./assets/AdventurePlanner/crazy8-4.png" width="100%">
+                                </div>
+                            </div>
+                        <p class="text-muted mb-2 fw-bold">Storyboards</p>
+                        <p class="text-muted">After discussing the Crazy 8s ideas, we came up with 12 storyboards with different level of 
+                            risks (how likely a user would accept the proposed solution). I have highlighted some of them here: 
+                        </p>
+                        <img src="./assets/AdventurePlanner/storyboards.png" width="100%" style="margin:0.7rem 0 1rem 0;">
+
+
+                    </li>
+
+                    <li class="timeline-item mb-5">
+                
+                        <span class="timeline-icon">
+                        <i class="fas fa-money-bill-wave text-primary fa-sm fa-fw"></i>
+                        </span>
+                        <h5 class="method-name">Speed Dating</h5>
+                        <p class="text-muted">
+                            We interviewed 4 participants in speed-dating sessions to understand limitations and outstanding needs in the travel planning process.
+                        </p>
+                        <div class="row" style="margin-top: 0.7rem;">
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <p class="text-muted mb-2 fw-bold">Overall Findings</p>
+                                <p class="text-muted">
+                                    <ul>
+                                        <li>People want agency in deciding the credibility of a source. Having transparent calculations of credibility is important for user to fully evaluate a source.</li>
+                                        <li>People appreciate personalized recommendations and suggestions that are curated based on their preferences and past experiences.</li>
+                                        <li>People want flexibility and intuition when documenting travel planning resources,  something easy to use and can display various types of media/info.</li>
+                                        <li>People trust their friends and family the most, but don’t want an influx of information about their travel plans because of privacy and relevancy.</li>
+                                    </ul>
+                                </p>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <p class="text-muted mb-2 fw-bold">Common Misunderstandings</p>
+                                <p class="text-muted">
+                                    <ul>
+                                        <li>We assumed that people would be willing to rely on computer algorithms to save time or narrow down options when planning for travel.</li>
+                                        <li>We assumed that people would trust travel information gained from family and friends more than those from strangers.</li>
+                                        <li>We assumed that including demographic information, such as age, of people who provided feedback to an online travel source would help users determine if the source is useful to them.</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <p class="text-muted mb-2 fw-bold">User Validated Insights & Ideas</p>
+                                <p class="text-muted">
+                                    <ul>
+                                        <li>People want credible, personalized recommendations — those from family and friends or generated using technology are favorable because they reduce the amount of research needed when travel planning.</li>
+                                        <li>People need ways to conveniently organize travel information. Participants demonstrated interest in a visual dashboard to organize and store multiple forms of travel information.</li>
+                                        <li>Verification of online travel information is important. People have a high barrier for trusting information shared by others online, and are willing to put in extra research effort to verify this information.</li>
+                                    </ul>
+                                </p>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <p class="text-muted mb-2 fw-bold">New Design Ideas</p>
+                                <p class="text-muted">
+                                    <ul>
+                                        <li>A plugin that suggests more relevant information about user’s current search to help them validate the authenticity of information they are looking for.</li>
+                                        <li>An AI platform that provides personalized, collaborative travel recommendations in various appropriate media form, by providing images, videos, reviews, etc. into the platform.</li>
+                                        <li>A documenting app where the system predicts the type of information the user is trying to log, and suggest a more efficient format that would automatically convert the information.</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="timeline-item mb-5">
+                        <span class="timeline-icon">
+                        <i class="fas fa-hand-holding-usd text-primary fa-sm fa-fw"></i>
+                        </span>
+                        <h5 class="method-name">Survey Studies</h5>
+                        <p class="text-muted">
+                            Using what we have learned, we defined our target users to be young adults between ages 22-26.
+                            We then created and conducted a survey study on eight individuals from our target user group, and 
+                            synthesized the results to learn about:
+                            <ul class="text-muted">
+                                <li class="text-muted">How does budget restriction affect young adults when travel planning?</li>
+                                <li class="text-muted">What kinds of groups do young adults tend to travel in?</li>
+                                <li class="text-muted">How do young adults utilize digital tools to plan for trips and document travel information?</li>
+                                <li class="text-muted">What types of information sources do people use and trust when travel planning?</li>
+                            </ul>
+                        </p>
+                    </li>
+
+                    <li class="timeline-item mb-5">
+                
+                        <span class="timeline-icon">
+                        <i class="fas fa-money-bill-wave text-primary fa-sm fa-fw"></i>
+                        </span>
+                        <h5 class="method-name">Click-through Prototyping</h5>
+                        <p class="text-muted">
+                            Based on our findings and insights from earlier research, we created low-fidelity prototypes for our travel planning and organization platform.<br> 
+                            We conducted interviews consisted of 8 participants 
+                            interacting with our prototype and answering questions based on the <span style="font-weight:700;">TAM (Technology Acceptance Model) questionnaire</span>, which 
+                            helped us test our assumptions and quantitatively measure the honest signals we were most interested in as each question was answered with a scale. 
+                        </p>
+                    </li>
+                </ul>
+            </section>
+            <!-- Section: Timeline -->
+        </div> <!-- Close content -->
+    </div> <!-- Close row -->
+
+    <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-12 py-0 title">
+            <h3>Insights + Evidence</h3>
+        </div>
+        <div class="col-lg-9 col-md-9 col-sm-12 py-0 content content-with-side-border">
+                <img src="./assets/AdventurePlanner/insights_evidence.png" width="90%">                
+        </div> <!-- Close content -->
+    </div> <!-- Close row -->
+
+    <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-12 py-0 title">
+            <h3>Solution</h3>
+        </div>
+        <div class="col-lg-9 col-md-9 col-sm-12 content content-with-side-border">
+            <div class="paragraph py-0 w-100">
+                <p>
+                    Our solution combines the biggest user needs we revealed through our research process: trustworthy recommendations and 
+                    flexible organization. Our platform uses a machine learning algorithm to present <span style="font-weight:700">individualized recommendations</span> based on a 
+                    user’s interests and past activity. Moreover, each recommendation is coupled with crowdsourced credibility scores in several 
+                    categories such as sanitation or value. Users are then able to navigate through such recommendations and <span style="font-weight:700">organize relevant 
+                    finds in personal wishlists</span>. We believe our solution will seamlessly integrate into current planning processes, and 
+                    streamline the research process for millions of users :)
+                </p>
+                <img src="./assets/AdventurePlanner/solution.png" width="90%" style="margin-top:1rem;">   
+            </div>
+        </div> <!-- Close content -->
+    </div> <!-- Close row -->
+
+    <div class="row" id="btn-row">
+        <div class="col-lg-6 col-md-6 col-sm-6 float float-lg-start float-md-start float-sm-start">
+            <a href="hamsterfund.html"><button type="button" class="btn btn-success float-start"><i class="bi bi-caret-left-fill"></i> previous</button></a>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 float float-lg-end float-md-end float-sm-end">
+            <a href="google-internship.html"><button type="button" class="btn btn-success float-end">next <i class="bi bi-caret-right-fill"></i></button></a>
+        </div>
+    </div>
+
+    <hr size="4px" style="border-radius: 3px;">  
+</section>
+
+<section class="contact-area">
+    <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12 py-0" id="email">
+            <a href="mailto:joannetsai21@gmail.com" target="_blank"><button type="button"><i class="bi bi-envelope-fill"></i>&nbsp;&nbsp;joannetsai21@gmail.com</button></a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 py-0" id="linkedin">
+            <a href="https://www.linkedin.com/in/joanne-tsai-2061/" target="_blank"><button type="button"><i class="bi bi-linkedin"></i>&nbsp;&nbsp;linkedIn</button></a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 py-0" id="github">
+            <a href="https://github.com/joannetsaii" target="_blank"><button type="button"><i class="bi bi-github"></i>&nbsp;&nbsp;gitHub</button></a>
+        </div>
+    </div> <!-- Close row -->
+
+    <div class="row">
+        <div class="col-12 copyrights">
+            &copy; 2022 — site designed and coded by Joanne Tsai<br/>
+        </div>
+    </div>
+</section>
+
+<!-- Icons -->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+</body>
+</html>
