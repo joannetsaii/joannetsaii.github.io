@@ -22,6 +22,21 @@
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
+
+    <style>
+        .project-details .content::before {
+            content: "";
+            height: 100%;
+            width: 3.5px;
+            background: #f3dece;
+            float: left;
+            margin-right: 1.5rem;
+        }
+
+        .project-details .content ul {
+            margin-left: 1.5rem;
+        }
+    </style>
 </head>
 <body>
 <!-- ///////////////////////////////////////////////////////////////////////////
@@ -132,7 +147,7 @@
                     </li>
                     <li>View current savings and set monthly savings rate
                     </li>
-                    <li>The <span style="font-weight:700; color:#cb8553">backtracking algorithm</span> helps generate the<span style="font-weight:700; color:#cb8553"> optimal buying plan</span> which helps users avoid overspending and
+                    <li>The <span style="font-weight:700;">backtracking algorithm</span> helps generate the<span style="font-weight:700;"> optimal buying plan</span> which helps users avoid overspending and
                         maximize the number of higher-priority purchases
                     </li>
                 </ul>
@@ -140,14 +155,14 @@
             <div class="paragraph py-0 w-100">
                 <h5>3. &nbsp;Graphing</h5>
                 <ul>
-                    <li>The <span style="font-weight:700; color:#cb8553">Matplotlib library</span> is used to <span style="font-weight:700; color:#cb8553">visualize financial data </span>for users to observe spending trends and compare between months and categories</li>
+                    <li>The <span style="font-weight:700;">Matplotlib library</span> is used to <span style="font-weight:700;">visualize financial data </span>for users to observe spending trends and compare between months and categories</li>
                 </ul>
             </div>
             <div class="paragraph py-0 w-100">
                 <h5>4. &nbsp;Rating</h5>
                 <ul>
-                    <li>Generates a score of user's spending trends by <span style="font-weight:700; color:#cb8553">comparing user's expense with the national data</span>
-                        scraped from Federal Reserve Economic Data using the <span style="font-weight:700; color:#cb8553">
+                    <li>Generates a score of user's spending trends by <span style="font-weight:700;">comparing user's expense with the national data</span>
+                        scraped from Federal Reserve Economic Data using the <span style="font-weight:700;">
                         Requests and Beautiful Soup libraries</span>.
                     </li>
                     <li>Analyzes in which categories users exceed budgets and shows the results in bullet points</li>

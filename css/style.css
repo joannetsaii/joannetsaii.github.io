@@ -1,7 +1,7 @@
 /* import fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400&family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
 
 html, body {
     margin: 0%;
@@ -153,11 +153,11 @@ a.navbar-brand {  /* joanne tsai */
 }
 
 hr {
-        margin: 0;
-        padding:0;
-        color: #333;
-        opacity: 1;
-        width: 100%;
+    margin: 0;
+    padding:0;
+    opacity: 1;
+    width: 100%;
+    border-radius: 3px;
 }
 
 
@@ -225,7 +225,7 @@ hr {
 
     .contact-area {
         margin: 0 0;
-        padding: 0rem 0 5rem 0;
+        padding: 0rem 0 3rem 0;
         background: transparent;
     }
 }

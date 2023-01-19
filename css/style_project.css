@@ -98,9 +98,15 @@
 }
 
 .content .paragraph ul {
+    /* font: normal 400 0.9rem var(--openSans); */
     font: normal 400 0.9rem var(--openSans);
     line-height: 1.7;
 }
+
+/* table.speedDating-table td {
+    vertical-align: top;
+    padding: 0 0.9rem;
+} */
 
 /* .vertical {
     border-left: 6px solid black;
